@@ -1,6 +1,10 @@
-# Input and Output in C and C++
+# C++ Module: Input, Output, and Type Deduction (`auto`)
 
-In this module, we explore how to get data **at runtime** and how to control how it's **formatted for output**.
+In this module, we explore:
+
+- How to perform **input and output** in both C and C++
+- How to **format output** cleanly
+- How C++ can **automatically infer types** using the `auto` keyword
 
 ---
 
@@ -10,7 +14,7 @@ In this module, we explore how to get data **at runtime** and how to control how
 scanf("%d", &variable);  // Reads an integer
 ```
 
-Use `&` to pass the **address** of the variable.
+Use `&` to pass the **address** of the variable so `scanf()` can store the input.
 
 ---
 
@@ -20,7 +24,7 @@ Use `&` to pass the **address** of the variable.
 cin >> variable;  // Automatically handles types
 ```
 
-No `&` required — C++ handles it for you behind the scenes.
+In C++, there's no need for `&`. The input system uses references and operator overloading behind the scenes.
 
 ---
 
@@ -38,13 +42,11 @@ printf("Total = %d\n", total);
 cout << "Total = " << total << endl;
 ```
 
-For advanced formatting, C++ uses the `<iomanip>` header.
+C++’s `cout` uses the `<<` operator to print values, and `endl` is used to move to a new line.
 
 ---
 
-## 📏 Format Specifiers
-
-### Common `printf()` Conversion Specifiers (C)
+## Format Specifiers in C (`printf()`)
 
 | Specifier | Meaning                        | Example Input | Example Output |
 |-----------|--------------------------------|----------------|----------------|
@@ -60,9 +62,9 @@ For advanced formatting, C++ uses the `<iomanip>` header.
 
 ---
 
-### Formatting Output in C++ with `iomanip`
+## Formatting Output in C++ with `iomanip`
 
-To control C++ output formatting, include:
+Include:
 
 ```cpp
 #include <iomanip>
@@ -83,8 +85,6 @@ To control C++ output formatting, include:
 
 ## Reading Multiple Inputs
 
-You can read multiple values in a single line or across multiple lines using both `scanf()` and `cin`.
-
 ### C Example with `scanf()`
 
 ```c
@@ -104,14 +104,8 @@ int main() {
 }
 ```
 
-- Works if input is: `100 5.25` (on the same line)
-- Also works if input is:
-  ```
-  100
-  5.25
-  ```
-
-`scanf()` automatically skips whitespace and reads each input value in order.
+- Input: `100 5.25` (or on separate lines)
+- `scanf()` handles whitespace and reads the values in order.
 
 ---
 
@@ -135,19 +129,86 @@ int main() {
 }
 ```
 
-- Works with input on the same line: `100 5.25`
-- Also works with input on different lines:
-  ```
-  100
-  5.25
-  ```
-
-Like `scanf()`, `cin` **skips whitespace** and reads values in order.
+C++’s `cin` also ignores whitespace and reads values in order.
 
 ---
 
-## Notes
+## Type Deduction with `auto` (C++11 and later)
 
-- Both `scanf()` and `cin` **read tokens** separated by whitespace (spaces, tabs, or newlines).
-- Both will **block** until all requested values are provided.
-- The order of input **must match** the order of variables in the code.
+C++ lets you avoid repeating types by using the `auto` keyword. The compiler automatically infers the variable type from the initializer.
+
+### Example 1: Auto with Primitives
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    auto i = 5;        // int
+    auto j = 5.0;      // double
+    auto ch = 'A';     // char
+
+    cout << "i: " << i << ", j: " << j << ", ch: " << ch << endl;
+
+    return 0;
+}
+```
+
+**Why use `auto`?**
+
+- Avoids repetition with complex types (e.g., iterators, lambda expressions)
+- Makes code more maintainable
+- Encourages generic programming
+
+---
+
+### Example 2: Auto with Containers
+
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> numbers = {1, 2, 3, 4};
+
+    // Without auto
+    for (vector<int>::iterator it = numbers.begin(); it != numbers.end(); ++it) {
+        cout << *it << " ";
+    }
+
+    cout << endl;
+
+    // With auto
+    for (auto it = numbers.begin(); it != numbers.end(); ++it) {
+        cout << *it << " ";
+    }
+
+    return 0;
+}
+```
+
+The second loop is easier to read and maintain.
+
+---
+
+## Table Summary
+
+| Feature        | C                      | C++                        |
+|----------------|------------------------|-----------------------------|
+| Input          | `scanf()`              | `cin`                      |
+| Output         | `printf()`             | `cout`                     |
+| Formatting     | Format specifiers      | `iomanip` manipulators     |
+| Type Deduction | Not available          | `auto` (C++11+)            |
+
+### Key Takeaways:
+
+- Use `scanf()` and `printf()` in C; `cin` and `cout` in C++
+- Use `iomanip` for clean formatting in C++
+- Use `auto` to simplify code and let the compiler deduce types
+
+```cpp
+auto total = 3 + 4.5; // deduces as double
+```
+
+This gives you modern, flexible, and readable code.
