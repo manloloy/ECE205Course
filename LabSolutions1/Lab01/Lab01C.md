@@ -2,7 +2,7 @@
 ## Solutions (For Instructor Use Only)
 ### C Solution
 
-'''c
+```c
 #include <stdio.h>
 
 int main() {
@@ -37,13 +37,13 @@ int main() {
 
     return 0;
 }
-'''
+```
 
 
 
 ### C++ Solution
 
-'''cpp
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -78,4 +78,4 @@ int main() {
 
     return 0;
 }
-'''
+```
