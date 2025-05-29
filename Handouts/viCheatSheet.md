@@ -210,7 +210,4 @@ gcc hello.c -o hello
 - Always press `Esc` to return to normal mode.
 - Use `:help` inside `vi` for built-in documentation.
 - Practice basic navigation and editing until it feels natural.
-
-```bash
-echo "Happy Editing with vi!"
-```
+- you can run the command `vimtutor`. This program helps you learn and practice vim techniques
