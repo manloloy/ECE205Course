@@ -1,9 +1,5 @@
 # Bash Cheat Sheet for Beginners
 
-This module serves as a quick reference for commonly used Bash commands and operations. It's designed for beginners who are just starting with the Linux terminal environment.
-
----
-
 ## Navigating the File System
 
 | Command               | Description                              |
