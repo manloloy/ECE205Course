@@ -1,99 +1,103 @@
-# Lab 02E: Sorting Arrays with Functions (No Vectors)
 
-## Objective
+## Solutions (C and C++) - Instructor Use Only
 
-Practice writing and calling functions in C and C++. This lab emphasizes working with fixed-size arrays and basic sorting logic using function parameters passed by reference.
-
-- Learn how to pass arrays by reference to a function.
-- Practice writing a sorting algorithm (e.g., selection sort or bubble sort).
-- Reinforce array traversal and swapping.
-- Learn function declarations and definitions.
-
-## Instructions
-
-Write a program that reads a list of integers from input, stores the integers in a fixed-size array (not a `vector`), and then calls a function to sort the array in descending order. Output the sorted array with commas between values, including after the last value.
-
-**Do not use C++ `vector` or C dynamic memory.** Stick to static arrays.
-
-Your program must define and call the following function:
-
-```
-void SortArray(int arr[], int size);
-```
-
-### Input
-
-- The first input value is an integer `n` (1 ≤ n ≤ 100), representing the number of values that follow.
-- Followed by `n` integers to sort.
-
-### Output
-
-- Output the sorted values in descending order, separated by commas. End the output with a comma.
-
-### Sample Input
-
-```
-5 10 4 39 12 2
-```
-
-### Expected Output
-
-```
-39,12,10,4,2,
-```
-
-## Learning Tips
-
-- To pass an array to a function, use the syntax `void func(int arr[], int size)` in both C and C++.
-- Sorting can be done using many algorithms. Try selection sort or bubble sort for simplicity.
-- Use the `&` operator to read the address of a variable (used in swapping if needed).
-- Static arrays in C/C++ do not know their size, so always pass the size as an additional argument.
-- Arrays are always passed by reference in C/C++, so no need to use pointers explicitly for function arguments.
-
----
-
-## C Template
+### C Solution
 
 ```c
 #include <stdio.h>
 
-/* Define your function here */
+// Function to sort array in descending order
+void SortArray(int arr[], int size) {
+    int i, j, temp, maxIndex;
+
+    for (i = 0; i < size; ++i) {
+        maxIndex = i;
+        for (j = i + 1; j < size; ++j) {
+            if (arr[j] > arr[maxIndex]) {
+                maxIndex = j;
+            }
+        }
+        // Swap
+        temp = arr[i];
+        arr[i] = arr[maxIndex];
+        arr[maxIndex] = temp;
+    }
+}
 
 int main() {
     int arr[100];
-    int i, size;
+    int size, i;
 
-    // TODO: Read input into arr
+    // Read number of values
+    scanf("%d", &size);
 
-    // TODO: Call SortArray
+    // Read values into array
+    for (i = 0; i < size; ++i) {
+        scanf("%d", &arr[i]);
+    }
 
-    // TODO: Output sorted array
+    // Sort array
+    SortArray(arr, size);
+
+    // Output sorted values with trailing comma
+    for (i = 0; i < size; ++i) {
+        printf("%d,", arr[i]);
+    }
+    printf("\n");
 
     return 0;
 }
 ```
 
-## C++ Template
+---
+
+### C++ Solution
 
 ```cpp
 #include <iostream>
 using namespace std;
 
-/* Define your function here */
+// Function to sort array in descending order
+void SortArray(int arr[], int size) {
+    int i, j, temp, maxIndex;
+
+    for (i = 0; i < size; ++i) {
+        maxIndex = i;
+        for (j = i + 1; j < size; ++j) {
+            if (arr[j] > arr[maxIndex]) {
+                maxIndex = j;
+            }
+        }
+        // Swap
+        temp = arr[i];
+        arr[i] = arr[maxIndex];
+        arr[maxIndex] = temp;
+    }
+}
 
 int main() {
     int arr[100];
     int size;
 
-    // TODO: Read input into arr
+    // Read number of values
+    cin >> size;
 
-    // TODO: Call SortArray
+    // Read values into array
+    for (int i = 0; i < size; ++i) {
+        cin >> arr[i];
+    }
 
-    // TODO: Output sorted array
+    // Sort array
+    SortArray(arr, size);
+
+    // Output sorted values with trailing comma
+    for (int i = 0; i < size; ++i) {
+        cout << arr[i] << ",";
+    }
+    cout << endl;
 
     return 0;
 }
 ```
 
----
 
