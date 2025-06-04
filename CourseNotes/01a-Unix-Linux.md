@@ -15,11 +15,16 @@ In this class, you will be working in a **Unix/Linux** environment, specifically
 ## UH Unix
 - MacOS
    1. Open the **Terminal** Application.
-   2. Type: ```ssh <uhusername>@uhunix.hawaii.edu
+   2. Type: ```ssh <uhusername>@uhunix.hawaii.edu```
    3. Enter your own UH Password
 - Window
-   1. 
-## Setting Up Your Environment
+   1. Download Putty here: [https://www.putty.org/](https://www.putty.org/). Then run the application
+   2. In host type uhunix.hawaii.edu
+   3. Type your uhusername in the username section
+   4. Make sure the port is 22
+   5. Start the session.
+---
+## Setting Up Ubuntu Desktop in a Virtual Machine
 
 You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup issues and ensures all students work in the same environment.
 
