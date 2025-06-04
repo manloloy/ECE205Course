@@ -8,10 +8,17 @@ In this class, you will be working in a **Unix/Linux** environment, specifically
 
 - Unix is the **Operating System** we’ll use for all programming and terminal work.
 - Linux (like Ubuntu) is a Unix-like operating system—just like Windows and macOS, it manages files, hardware, and programs.
-- This course assumes you are working in **Ubuntu Desktop**, provided as a downloadable **VirtualBox VM**.
+- In the early portion of this course, students will ssh into a unix system to program
+- As early as possible students should start using working in **Ubuntu Desktop**, using a **VirtualBox VM**.
 
 ---
-
+## UH Unix
+- MacOS
+   1. Open the **Terminal** Application.
+   2. Type: ```ssh <uhusername>@uhunix.hawaii.edu
+   3. Enter your own UH Password
+- Window
+   1. 
 ## Setting Up Your Environment
 
 You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup issues and ensures all students work in the same environment.
