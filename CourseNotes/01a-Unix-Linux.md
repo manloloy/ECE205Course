@@ -1,6 +1,6 @@
 # Introduction to Unix/Linux (Ubuntu) for C/C++ Programming
 
-In this class, you will be working in a **Unix/Linux** environment, specifically using **Ubuntu Desktop** via a pre-built VirtualBox VM.
+In this class, you will be working in a **Unix/Linux** environment. 
 
 ---
 
@@ -23,8 +23,9 @@ In this class, you will be working in a **Unix/Linux** environment, specifically
    3. Type your uhusername in the username section
    4. Make sure the port is 22
    5. Start the session.
+
 ---
-## Setting Up Ubuntu Desktop in a Virtual Machine
+## Setting Up Ubuntu Desktop in a Virtual Machine (Do this sometime in the first week. Ask your Instructor and TA for help)
 
 You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup issues and ensures all students work in the same environment.
 
@@ -32,13 +33,15 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
    [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 2. **Download Ubuntu Desktop(Most recent is 24.04.02 LTS)**  
-   [*(Link will be provided by the instructor.)*](https://ubuntu.com/download/desktop)
+   [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
 
-3. **Import the VM into VirtualBox:**
+3. **Open VirtualBox:**
    - Open VirtualBox
-   - Go to `File` → `Import Appliance`
-   - Select the downloaded `.ova` file
-   - Click through and start the VM
+   - Create a new VM
+   - CPU: allocate 2-4 cores minimum. If you can allocate more, I would recommend it.
+   - RAM: 6gb if possible or 8+gb if you can
+   - Disk Space: I would recommend a fixed disk at 15GB/20GB
+   - This is a virtual machine, so the the ram and cpu will be freed when the VM is off.
 
 ---
 
