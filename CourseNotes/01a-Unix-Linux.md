@@ -17,10 +17,10 @@ In this class, you will be working in a **Unix/Linux** environment, specifically
 You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup issues and ensures all students work in the same environment.
 
 1. **Install VirtualBox**  
-   https://www.virtualbox.org/wiki/Downloads
+   [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-2. **Download Ubuntu VM Image**  
-   *(Link will be provided by the instructor.)*
+2. **Download Ubuntu Desktop(Most recent is 24.04.02 LTS)**  
+   [*(Link will be provided by the instructor.)*](https://ubuntu.com/download/desktop)
 
 3. **Import the VM into VirtualBox:**
    - Open VirtualBox
