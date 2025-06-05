@@ -4,10 +4,10 @@
 |      | Jun 11 (Wed) | [The Cast Operator](./CourseNotes/02a-CastOperator.md)<br/>[Branching](./CourseNotes/02b-Branching.md)<br/>[While Loop](./CourseNotes/02c-WhileLoop.md)<br/>[For & Do/While Loop](./CourseNotes/02d-ForLoop_DoWhile.md)<br/>[Pointers & References](./CourseNotes/02e-PointersRefrences.md) |          |
 |      | Jun 13 (Fri) | [Macros, Const, Constexpr](./CourseNotes/03a-Macros_Const.md) <br/>[Functions](./CourseNotes/03b-Functions.md) <br/>[Structs in C](./CourseNotes/03c-StructsC.md) <br/>[Introduction To Classes](./CourseNotes/03d-ClassesIntroduction.md) <br/>[Classes - Constructor & Destructor](./CourseNotes/03e-Constructor&Destructor.md) <br/>[Dynamic Memory Allocation & RAII](./CourseNotes/03f-DynamicMemory&RAII.md) |          |
 | 2    | Jun 16 (Mon) | [Inheritance](./CourseNotes/04a-Inheritance.md)<br/>[Abstract Class & Pure Virtual Functions - Interfaces](./CourseNotes/04b-AbstractClass.md)<br/>[Vectors & Iterators](./CourseNotes/04c-Vectors&Iterators.md)<br/>[Maps & Sets](./CourseNotes/04d-Map&Sets.md)| Lab 02   |
-|      | Jun 18 (Wed) | [Lecture 05](../CourseNotes/05.md) |          |
-|      | Jun 20 (Fri) | [Lecture 06](../CourseNotes/06.md) |          |
-| 3    | Jun 23 (Mon) | [Lecture 07](../CourseNotes/07.md) | Lab 03   |
-|      | Jun 25 (Wed) | [Lecture 08](../CourseNotes/08.md) |          |
+|      | Jun 18 (Wed) | [SFML - Module 1 - Intro](./CourseNotes/05a-SFML-Module1-Intro.md)<br/>[SFML - Module 2 - Movement & File Separation](./CourseNotes/05b-SFML-Module2-Movement&Separation.md)<br/>[ifndef & pragma once](./CourseNotes/05c-ifndef&pragma.md)<br/>[Makefiles](./CourseNotes/05d-Makefiles.md) |          |
+|      | Jun 20 (Fri) | [SFML - Module 3 - Buttons](./CourseNotes/06a-SFML-Module3-Buttons.md) <br/>[SFML - Module 4 - Background & Collisions](./CourseNotes/06b-SFML-Module4-background&collisions.md) <br/>[SFML - Module 5 - Clock, Time & Enemies](./CourseNotes/06c-SFML-Module5-clock-time-enemies.md) <br/>[SFML - Module 6 - Bullets](./CourseNotes/06d-SFML-Module6-Bullets.md)  |          |
+| 3    | Jun 23 (Mon) | [Intro To Design Patters](./CourseNotes/07a-IntroToDesignPatterns.md)<br/>[Design Pattern - Object Pool](./CourseNotes/07b-DesignPattern-ObjectPool.md)<br/>[Design Pattern - RAII](./CourseNotes/07c-DesingPattern-RAII.md)<br/>[Design Pattern - Singleton](./CourseNotes/07d-DesignPattern-Singleton.md) | Lab 03   |
+|      | Jun 25 (Wed) | [Design Pattern - Factory](./CourseNotes/08a-DesignPattern-Factory.md)<br/>[Design Pattern - Strategy](./CourseNotes/08b-DesignPattern-Strategy.md)<br/>[Modern Scriptable Objects](./CourseNotes/08c-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/08d-ScriptableObjectsInC++.md) |          |
 |      | Jun 27 (Fri) | [Lecture 09](../CourseNotes/09.md) |          |
 | 4    | Jun 30 (Mon) | Lecture 10                         | Lab 04   |
 |      | Jul 2 (Wed)  | Lecture 11                         |          |
