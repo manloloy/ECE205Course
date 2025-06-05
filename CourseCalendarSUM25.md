@@ -1,7 +1,7 @@
 | Week | Day  | Lecture                            | Lab      |
 |------|------|-------------------------------------|----------|
-| 1    | Jun 9 (Mon)  | [Introduction to Unix/Linux ](../CourseNotes/01a-Unix-Linux.md) | Lab 01   |
-|      | Jun 11 (Wed) | [Lecture 02](../CourseNotes/02.md) |          |
+| 1    | Jun 9 (Mon)  | [Introduction to Unix/Linux ](./CourseNotes/01a-Unix-Linux.md)<br/>[Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md) | Lab 01   |
+|      | Jun 11 (Wed) | [Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md) |          |
 |      | Jun 13 (Fri) | [Lecture 03](../CourseNotes/03.md) |          |
 | 2    | Jun 16 (Mon) | [Lecture 04](../CourseNotes/04.md) | Lab 02   |
 |      | Jun 18 (Wed) | [Lecture 05](../CourseNotes/05.md) |          |
