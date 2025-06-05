@@ -1,6 +1,6 @@
 | Week | Day  | Lecture                            | Lab      |
 |------|------|-------------------------------------|----------|
-| 1    | Jun 9 (Mon)  | [Introduction to Unix/Linux ](./CourseNotes/01a-Unix-Linux.md)<br/>[Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md) | Lab 01   |
+| 1    | Jun 9 (Mon)  | [Introduction to Unix/Linux ](./CourseNotes/01a-Unix-Linux.md)<br/>[Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md)<br/>[What Does A C/C++ Program Look Like](./CourseNotes/01c-WhatDoesAProgramLookLike.md)<br/>[Namespace & Scope Operator](./CourseNotes/01d-Namespace&ScopeOperator.md)<br/>[Input/Output & FormatSpecifiers](./CourseNotes/01e-InputOutput&FormatSpecifiers) | Lab 01   |
 |      | Jun 11 (Wed) | [Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md) |          |
 |      | Jun 13 (Fri) | [Lecture 03](../CourseNotes/03.md) |          |
 | 2    | Jun 16 (Mon) | [Lecture 04](../CourseNotes/04.md) | Lab 02   |
@@ -26,7 +26,7 @@
 |      | Aug 1 (Fri)  | Lecture 23                         |          |
 | 9    | Aug 4 (Mon)  | Lecture 24                         | Lab 09   |
 |      | Aug 6 (Wed)  | Lecture 25                         |          |
-|      | Aug 8 (Fri)  | Lecture 26                         |          |
+|      | Aug 8 (Fri)  | [L26](./CourseNotes/09.md)                         |          |
 | 10   | Aug 11 (Mon) | Final Presentations (Day 1)        |  |
 |      | Aug 13 (Wed) | Final Presentations (Day 2)        |          |
 |      | Aug 15 (Fri) | No Class   - Final Projects Due |          |
