@@ -1,7 +1,7 @@
 | Week | Day  | Lecture                            | Lab      |
 |------|------|-------------------------------------|----------|
 | 1    | Jun 9 (Mon)  | [Introduction to Unix/Linux ](./CourseNotes/01a-Unix-Linux.md)<br/>[Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md)<br/>[What Does A C/C++ Program Look Like](./CourseNotes/01c-WhatDoesAProgramLookLike.md)<br/>[Namespace & Scope Operator](./CourseNotes/01d-Namespace&ScopeOperator.md)<br/>[Input/Output & FormatSpecifiers](./CourseNotes/01e-InputOutput&FormatSpecifiers) | Lab 01   |
-|      | Jun 11 (Wed) | [Compile, Link, and Execute in C/C++](./CourseNotes/01b-CompileLink&Execute.md) |          |
+|      | Jun 11 (Wed) | [The Cast Operator](./CourseNotes/02a-CastOperator.md)<br/>[Branching](./CourseNotes/02b-Branching.md)<br/>[While Loop](./CourseNotes/02c-WhileLoop.md)<br/>[For & Do/While Loop](./CourseNotes/02d-ForLoop_DoWhile.md)<br/>[Pointers & References](./CourseNotes/02e-PointersRefrences.md) |          |
 |      | Jun 13 (Fri) | [Lecture 03](../CourseNotes/03.md) |          |
 | 2    | Jun 16 (Mon) | [Lecture 04](../CourseNotes/04.md) | Lab 02   |
 |      | Jun 18 (Wed) | [Lecture 05](../CourseNotes/05.md) |          |
