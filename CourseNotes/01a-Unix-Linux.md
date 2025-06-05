@@ -42,8 +42,12 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
    - RAM: 6gb if possible or 8+gb if you can
    - Disk Space: I would recommend a fixed disk at 15GB/20GB
    - This is a virtual machine, so the the ram and cpu will be freed when the VM is off.
-
-4. **VIM SETTINGS**
+   
+4. **Starting your VM and Install necessary tools**
+   - Start your vm and use the username and password you created. If you need additional help, ask your Instructor or TA.
+   - Start the **Terminal** application and run the following command: ```sudo apt update && sudo apt install -y build-essential make```
+   - Th
+6. **VIM SETTINGS**
    - your vim settings may be a bit weird when your first start using vim. If you notice weird things with the backspace and arrow keys come back to this section
    - Open your .vimrc file by typeing ```vim ~/.vimrc```
    - make sure the file contains the following contents
