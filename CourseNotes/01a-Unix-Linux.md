@@ -43,6 +43,16 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
    - Disk Space: I would recommend a fixed disk at 15GB/20GB
    - This is a virtual machine, so the the ram and cpu will be freed when the VM is off.
 
+4. **VIM SETTINGS**
+   - your vim settings may be a bit weird when your first start using vim. If you notice weird things with the backspace and arrow keys come back to this section
+   - Open your .vimrc file by typeing ```vim ~/.vimrc```
+   - make sure the file contains the following contents
+   - ```
+     set backspace=indent,eol,start
+     set nocompatible
+     set number 
+     ```
+
 ---
 
 ## Basic Bash Commands to Know
