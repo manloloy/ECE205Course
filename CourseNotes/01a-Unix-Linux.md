@@ -45,13 +45,17 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
    
 4. **Starting your VM and Install necessary tools**
    - Start your vm and use the username and password you created. If you need additional help, ask your Instructor or TA.
-   - Start the **Terminal** application and run the following command: ```sudo apt update && sudo apt install -y build-essential make```
-   - Th
+   - Start the **Terminal** application and run the following command:
+
+     ```sudo apt update && sudo apt install -y build-essential make manpages-dev libsfml-dev```
+   
+   - These tools should be sufficient for the course for now.
 6. **VIM SETTINGS**
    - your vim settings may be a bit weird when your first start using vim. If you notice weird things with the backspace and arrow keys come back to this section
    - Open your .vimrc file by typeing ```vim ~/.vimrc```
    - make sure the file contains the following contents
-   - ```
+
+     ```
      set backspace=indent,eol,start
      set nocompatible
      set number 
