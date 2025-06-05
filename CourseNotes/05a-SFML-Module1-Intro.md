@@ -2,6 +2,7 @@
 
 This module walks you through installing and configuring SFML in your **VirtualBox Ubuntu Desktop** environment, writing and compiling a test program, and using a `Makefile`.
 
+#### **NOTE: If you've already setup your machine using the first lecture, you can skip to the test in Step 4. If you have some missing packages that are needed, review the setup steps below to make sure you have everything you need installed.**
 ---
 
 ## Task 1: Install VirtualBox
