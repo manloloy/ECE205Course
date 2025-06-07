@@ -99,6 +99,44 @@ coinflip.o: coinflip.cpp coinflip.hpp
 clean:
 	rm -f *.o coinflip
 ```
+### File: `Makefile` (with detailed comments)
+
+```make
+# This is the default target. When you type `make` or `make all`, this target is run.
+all: coinflip
+
+# This rule builds the final executable named 'coinflip' by linking the object files.
+coinflip: main.o coinflip.o
+	g++ -o coinflip main.o coinflip.o
+
+# This rule compiles main.cpp into main.o
+main.o: main.cpp coinflip.hpp
+	g++ -c main.cpp
+
+# This rule compiles coinflip.cpp into coinflip.o
+coinflip.o: coinflip.cpp coinflip.hpp
+	g++ -c coinflip.cpp
+
+# This rule is run when you type `make clean`.
+# It removes all object files (*.o) and the compiled executable to start fresh.
+clean:
+	rm -f *.o coinflip
+```
+
+### How to Use This Makefile
+
+- `make` or `make all`  
+  Runs the first target (`all`), which depends on `coinflip`. It builds everything needed for the `coinflip` program.
+
+- `make coinflip`  
+  Specifically builds the `coinflip` executable by compiling `main.cpp` and `coinflip.cpp` if they’ve changed.
+
+- `make clean`  
+  Deletes all `.o` object files and the `coinflip` executable. This is useful when:
+  - You want to recompile everything from scratch
+  - You're cleaning up the folder before submission or packaging
+
+**Tip:** Always run `make clean` before making a final submission to ensure no compiled files are included.
 
 ---
 
