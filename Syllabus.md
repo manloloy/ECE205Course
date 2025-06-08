@@ -2,16 +2,17 @@
 **University of Hawai‘i at Mānoa**  
 **Credits**: 4  
 **Instructor**: Christopher Manloloyo  
-**Office Hours**: Holmes Hall 439, Tuesdays & Thursdays: 8:30 AM – 11:30 AM  
-**Lecture Time**: Mondays & Wednesdays: 8:30 AM – 9:45 AM (Online)  
-**Lecture Link**: [Google Meet](https://meet.google.com/aqi-fhcd-gvx)  
+**Office Hours**: TBD
+**Lecture Location**: Homes 248
+**Lecture Time**: MON, WED, & FRI: 10:30 AM – 11:45 AM
+
 
 ## Teaching Assistant / Grader  
-- **Japhet Ye** – japhetye@hawaii.edu  
+- **Shayla Sharmin Urmi** – shay28@hawaii.edu 
 
 ## Lab Section  
-- **Section 1**: Online — Fridays 8:30 AM – 11:15 AM  
-  Same link as lectures
+  **Location**: Holmes 387
+- **Section 1**: Tuesday 9:00 AM – 11:45 AM  
 
 ## Reference Material  
 **Textbook**: No textbook required  
@@ -46,6 +47,7 @@ ECE 205 is a foundational course in C and C++ programming designed for students 
 - Classes, encapsulation, and member functions
 - Constructors, destructors
 - Operator overloading
+- Inheritance, Compostiion
 - Function overloading
 - RAII (Resource Acquisition Is Initialization)
 - Introduction to STL: vectors, strings
@@ -70,7 +72,7 @@ ECE 205 is a foundational course in C and C++ programming designed for students 
 ### Practical Concepts
 - Debugging tools (`gdb`)
 - Best practices in system-level programming
-- Use of GitHub for version control and submissions
+- Use of Git and Github
 
 ## Labs
 Weekly 3-hour sessions. Students are expected to complete assigned tasks during or after the session and submit them within one week. Labs emphasize:
@@ -80,37 +82,16 @@ Weekly 3-hour sessions. Students are expected to complete assigned tasks during 
 - Progressive development toward projects
 
 ## Grading Breakdown
-| Component        | Weight |
-|------------------|--------|
-| Lectures         | 10%    |
-| Labs             | 35%    |
-| Midterm Exam     | 20%    |
-| Final Exam       | 25%    |
-| Project / Quizzes| 10%    |
+| Component          | Weight |
+|--------------------|--------|
+| Participation      | 10%    |
+| Labs               | 30%    |
+| Final Project      | 40%    |
+| Final Presentation | 20%    |
 
 ## Course Schedule
-| Week | Topics                                                                 |
-|------|------------------------------------------------------------------------|
-| 1    | Bash, vi, Hello World, `printf`/`scanf`, compilation, lab setup       |
-| 2    | Branching and loops in C and C++                                       |
-| 3    | Arrays, functions, and pointers                                        |
-| 4    | Structs, memory layout, basic Makefiles                                |
-| 5    | C++ I/O, classes, constructors/destructors                             |
-| 6    | Operator/function overloading, RAII                                    |
-| 7    | Design patterns (Object Pool, Singleton)                               |
-| 8    | Midterm Review + Factory Method Pattern                                |
-| 9    | Strategy Pattern, Scriptable Objects (Intro)                           |
-| 10   | Scriptable Objects with JSON + SFML UI                                 |
-| 11   | Recursion, memoization, iterative vs recursive                         |
-| 12   | Linked lists (singly and doubly)                                       |
-| 13   | Binary trees and binary search trees                                   |
-| 14   | STL Overview, smart pointers                                           |
-| 15   | Final Project integration + review                                     |
-| 16   | Final Exam                                                              |
+[Course Schedule](./CourseCalendarSUM25.md)
 
-## Communication
-All course material, labs, and announcements are posted on the course GitHub:  
-[https://github.com/manloloy/ECE205Course](https://github.com/manloloy/ECE205Course)
 
 ## Academic Honesty
 Students are expected to uphold the highest standards of academic integrity. Any violations may result in disciplinary action per University guidelines.
