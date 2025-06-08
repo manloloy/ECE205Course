@@ -8,7 +8,7 @@
 |      | Jun 20 (Fri) | [SFML - Module 3 - Buttons](./CourseNotes/06a-SFML-Module3-Buttons.md) <br/>[SFML - Module 4 - Background & Collisions](./CourseNotes/06b-SFML-Module4-background&collisions.md) <br/>[SFML - Module 5 - Clock, Time & Enemies](./CourseNotes/06c-SFML-Module5-clock-time-enemies.md) <br/>[SFML - Module 6 - Bullets](./CourseNotes/06d-SFML-Module6-Bullets.md)  |          |
 | 3    | Jun 23 (Mon) | [Intro To Design Patters](./CourseNotes/07a-IntroToDesignPatterns.md)<br/>[Design Pattern - Object Pool](./CourseNotes/07b-DesignPattern-ObjectPool.md)<br/>[Design Pattern - RAII](./CourseNotes/07c-DesingPattern-RAII.md)<br/>[Design Pattern - Singleton](./CourseNotes/07d-DesignPattern-Singleton.md) | [Lab 3](./Labs/Lab03)   |
 |      | Jun 25 (Wed) | [Design Pattern - Factory](./CourseNotes/08a-DesignPattern-Factory.md)<br/>[Design Pattern - Strategy](./CourseNotes/08b-DesignPattern-Strategy.md) |          |
-|      | Jun 27 (Fri) | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)  |          |
+|      | Jun 27 (Fri) | [Git & Github](./CourseNotes/09a-Git&Github.md)  |          |
 | 4    | Jun 30 (Mon) | Start your  Final Project Proposals                        | [Lab 4](./Labs/Lab04)   |
 |      | Jul 2 (Wed)  | Final Project Proposal Discussion                         |          |
 |      | Jul 4 (Fri)  | No Class (Independence Day)     |          |
