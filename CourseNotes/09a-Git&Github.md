@@ -72,8 +72,8 @@ git config --global user.email "your_email@hawaii.edu"
 Create a new folder and file for testing Git.
 
 ```bash
-mkdir lab4
-cd lab4
+mkdir gitpractice
+cd gitpractice
 touch hello.cpp
 ```
 
@@ -105,13 +105,13 @@ git commit -m "Initial Hello World commit"
 
 1. Log into GitHub.
 2. Click **New Repository**.
-3. Name it `lab4`.
+3. Name it `gitpractice`.
 4. **Do not** initialize with README or .gitignore.
 
 ### Add Remote
-
+**make sure to replace yourusername with your git username**
 ```bash
-git remote add origin https://github.com/yourusername/lab4.git
+git remote add origin https://github.com/yourusername/gitpractice.git
 ```
 
 ### Verify the Remote
@@ -211,13 +211,4 @@ Best practice:
 
 Git is essential for tracking progress, backing up your work, and collaborating with others. Mastering Git and GitHub early in your programming education will prepare you for both academic and industry success.
 
-We will use Git extensively in this course starting with **Lab04A**.
-
-```bash
-# Summary commands:
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin <URL>
-git push -u origin main
-```
+**git Cheat Sheet**: [git Cheat Sheet](../Handouts/gitCheatSheet.md)
