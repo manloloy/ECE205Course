@@ -9,8 +9,8 @@
 | 3    | Jun 23 (Mon) | [Intro To Design Patters](./CourseNotes/07a-IntroToDesignPatterns.md)<br/>[Design Pattern - Object Pool](./CourseNotes/07b-DesignPattern-ObjectPool.md)<br/>[Design Pattern - RAII](./CourseNotes/07c-DesingPattern-RAII.md)<br/>[Design Pattern - Singleton](./CourseNotes/07d-DesignPattern-Singleton.md) | [Lab 3](./Labs/Lab03)   |
 |      | Jun 25 (Wed) | [Design Pattern - Factory](./CourseNotes/08a-DesignPattern-Factory.md)<br/>[Design Pattern - Strategy](./CourseNotes/08b-DesignPattern-Strategy.md) |          |
 |      | Jun 27 (Fri) | [Git & Github](./CourseNotes/09a-Git&Github.md)  |          |
-| 4    | Jun 30 (Mon) | Start your  Final Project Proposals                        | [Lab 4](./Labs/Lab04)   |
-|      | Jul 2 (Wed)  | Final Project Proposal Discussion                         |          |
+| 4    | Jun 30 (Mon) | More Git<br/>Start your  Final Project Proposals                        | [Lab 4](./Labs/Lab04)   |
+|      | Jul 2 (Wed)  | Final Project Proposal Discussion<br/>Try your best to Finalize your Project Proposals Today      |          |
 |      | Jul 4 (Fri)  | No Class (Independence Day)     |          |
 | 5    | Jul 7 (Mon)  | [Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
 |      | Jul 9 (Wed)  | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)                         |          |
