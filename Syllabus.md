@@ -15,7 +15,7 @@
 
 ## Reference Material  
 **Textbook**: No textbook required  
-Recommended (Free & Open Source):  
+Recommended as a light Reference (Free & Open Source):  
 - *Modern C++ Tutorial: C++11/14/17/20 On the Fly* by Changkun Ou  
   [Available Online](https://changkun.de/modern-cpp/)
 
