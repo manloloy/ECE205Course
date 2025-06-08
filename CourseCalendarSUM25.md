@@ -14,10 +14,10 @@
 |      | Jul 4 (Fri)  | No Class (Independence Day)     |          |
 | 5    | Jul 7 (Mon)  | [Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
 |      | Jul 9 (Wed)  | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)                         |          |
-|      | Jul 11 (Fri) | Lecture - Overloading Operators                        |          |
-| 6    | Jul 14 (Mon) | Lecture 15                         | [Lab 6](./Labs/Lab06)   |
-|      | Jul 16 (Wed) | Lecture 16                        |          |
-|      | Jul 18 (Fri) | Lecture 17                         |          |
+|      | Jul 11 (Fri) | Lecture - Overloading Functions                        |          |
+| 6    | Jul 14 (Mon) | Lecture - Overloading Operators                         | [Lab 6](./Labs/Lab06)   |
+|      | Jul 16 (Wed) | Lecture - C++11 vs C++14 vs C++ 17                        |          |
+|      | Jul 18 (Fri) | Searching and Sorting Algorithms                         |          |
 | 7    | Jul 21 (Mon) | Lecture 18                         | [Lab 7](./Labs/Lab07)   |
 |      | Jul 23 (Wed) | Lecture 19                         |          |
 |      | Jul 25 (Fri) | Lecture 20                         |          |
