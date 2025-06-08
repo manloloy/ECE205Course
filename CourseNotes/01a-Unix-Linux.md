@@ -47,7 +47,7 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
    - Start your vm and use the username and password you created. If you need additional help, ask your Instructor or TA.
    - Start the **Terminal** application and run the following command:
 
-     ```sudo apt update && sudo apt install -y build-essential make manpages-dev libsfml-dev```
+     ```sudo apt update && sudo apt install -y build-essential make manpages-dev libsfml-dev git```
    
    - These tools should be sufficient for the course for now.
 6. **VIM SETTINGS**
