@@ -79,6 +79,8 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
 | `tab` | Auto-complete filenames or commands |
 | `↑` | Access command history (press up key) |
 
+**Bash Cheat Sheet** for the course: [Bash Cheat Sheet](../Handouts/BashCheatSheet.md)
+
 ---
 
 ## Using `vi` Text Editor
@@ -99,13 +101,14 @@ Ubuntu includes a built-in tutorial for `vim`. To get started, open the terminal
 | `:wq` | Save and quit |
 | `:wq!` | Force save and quit |
 
+**vim Cheat Sheet** for the course: [vim Cheat Sheet](../Handouts/viCheatSheet.md)
+
 ---
 
 ## Additional Resources
 
 
-- **Unix Command Cheat Sheet**:  
-  [link](Unix Cheat Sheet)
+- **Bash Cheat Sheet** for the course: [Bash Cheat Sheet](../Handouts/BashCheatSheet.md)
 
-- **VIM Command Cheat Sheet**
+- **vim Cheat Sheet** for the course: [vim Cheat Sheet](../Handouts/viCheatSheet.md)
 
