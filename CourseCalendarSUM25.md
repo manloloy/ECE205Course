@@ -24,7 +24,7 @@
 | 8    | Jul 28 (Mon) | [Selection Sort](./CourseNotes/)<br/>[Insertion Sort](./CourseNotes/)                      | [Lab 8](./Labs/Lab08)   |
 |      | Jul 30 (Wed) | [Quick Sort](./CourseNotes/)<br/>[Merge Sort](./CourseNotes/)   |          |
 |      | Aug 1 (Fri)  | Lecture - C++11 vs C++14 vs C++ 17                        |          |
-| 9    | Aug 4 (Mon)  | Practice Problems                         |    |
+| 9    | Aug 4 (Mon)  | Practice Problems                         | [Lab 9](./Labs/Lab09)   |
 |      | Aug 6 (Wed)  | Practice Problems                         |          |
 |      | Aug 8 (Fri)  | Practice Problems                        |          |
 | 10   | Aug 11 (Mon) | Final Presentations (Day 1)        |  |
