@@ -63,6 +63,10 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
      ```
 
 ---
+## Bash/VIM video
+[Intro to Bash & VIM](https://drive.google.com/file/d/1n4sVdBegET4n0ZKzsyrBvtb8vUj7B2r2/view?usp=sharing)
+
+---
 
 ## Basic Bash Commands to Know
 
