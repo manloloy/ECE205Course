@@ -3,7 +3,7 @@
 **Credits**: 4  
 **Instructor**: Christopher Manloloyo  
 **Office Hours**: TBD
-**Lecture Location**: Homes 248
+**Lecture Location**: Holmes Hall 248
 **Lecture Time**: MON, WED, & FRI: 10:30 AM – 11:45 AM
 
 
