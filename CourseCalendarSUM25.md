@@ -15,18 +15,18 @@
 | 5    | Jul 7 (Mon)  | [Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
 |      | Jul 9 (Wed)  | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)                         |          |
 |      | Jul 11 (Fri) | [Function Name Overloading](./CourseNotes/FunctionNameOverloading.md)<br/>[Constructor Overloading](./CourseNotes/12b-ConstructorOverloading.md)                        |          |
-| 6    | Jul 14 (Mon) | Lecture - Overloading Operators                         | [Lab 6](./Labs/Lab06)   |
-|      | Jul 16 (Wed) | Lecture - C++11 vs C++14 vs C++ 17                        |          |
-|      | Jul 18 (Fri) | Searching and Sorting Algorithms                         |          |
-| 7    | Jul 21 (Mon) | Lecture 18                         | [Lab 7](./Labs/Lab07)   |
-|      | Jul 23 (Wed) | Lecture 19                         |          |
-|      | Jul 25 (Fri) | Lecture 20                         |          |
-| 8    | Jul 28 (Mon) | Lecture 21                         | [Lab 8](./Labs/Lab08)   |
-|      | Jul 30 (Wed) | Lecture 22                         |          |
-|      | Aug 1 (Fri)  | Lecture 23                         |          |
-| 9    | Aug 4 (Mon)  | Lecture 24                         |    |
-|      | Aug 6 (Wed)  | Lecture 25                         |          |
-|      | Aug 8 (Fri)  | <br/>[L26](./CourseNotes/09.md)                         |          |
+| 6    | Jul 14 (Mon) | [Overloading Operators](./CourseNotes/13a-OverloadingOperators.md)                        | [Lab 6](./Labs/Lab06)   |
+|      | Jul 16 (Wed) | [Revisite the Abstract Class and Templates](./CourseNotes/)                       |          |
+|      | Jul 18 (Fri) | [Function Templates](./CourseNotes/)<br>[Class Templates](./CourseNotes/)                       |          |
+| 7    | Jul 21 (Mon) | [Containers](./CourseNotes/)                          | [Lab 7](./Labs/Lab07)   |
+|      | Jul 23 (Wed) | [Searching and Sorting Algorithms](./CourseNotes/)                        |          |
+|      | Jul 25 (Fri) | [Binary Search](./CourseNotes/)<br/>[Big O notation](./CourseNotes/)                        |          |
+| 8    | Jul 28 (Mon) | [Selection Sort](./CourseNotes/)<br/>[Insertion Sort](./CourseNotes/)                      | [Lab 8](./Labs/Lab08)   |
+|      | Jul 30 (Wed) | [Quick Sort](./CourseNotes/)<br/>[Merge Sort](./CourseNotes/)   |          |
+|      | Aug 1 (Fri)  | Lecture - C++11 vs C++14 vs C++ 17                        |          |
+| 9    | Aug 4 (Mon)  | Practice Problems                         |    |
+|      | Aug 6 (Wed)  | Practice Problems                         |          |
+|      | Aug 8 (Fri)  | Practice Problems                        |          |
 | 10   | Aug 11 (Mon) | Final Presentations (Day 1)        |  |
 |      | Aug 13 (Wed) | Final Presentations (Day 2)        |          |
 |      | Aug 15 (Fri) | No Class   - Final Projects Due |          |
