@@ -1,4 +1,4 @@
-# Lecture 09B: File I/O in C++
+# File I/O in C++
 
 ## Overview
 
