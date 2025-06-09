@@ -13,6 +13,7 @@ In this class, you will be working in a **Unix/Linux** environment.
 
 ---
 ## UH Unix
+- [Video of loggin on to UH Unix both MacOS and Windows(using putty)](https://drive.google.com/file/d/1S-SSow904T3TN9DGh_hGRiG4m-qkcx5b/view?usp=drive_link)
 - MacOS
    1. Open the **Terminal** Application.
    2. Type: ```ssh <uhusername>@uhunix.hawaii.edu``` (eg. ```ssh johndoe@uhunix.hawaii.edu```)
@@ -63,7 +64,7 @@ You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup 
      ```
 
 ---
-## Bash/VIM video
+## Bash/VIM vide
 [Intro to Bash & VIM](https://drive.google.com/file/d/1n4sVdBegET4n0ZKzsyrBvtb8vUj7B2r2/view?usp=sharing)
 
 ---
