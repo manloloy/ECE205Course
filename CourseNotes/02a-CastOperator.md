@@ -28,36 +28,6 @@ float price;
 
 price = sell_whole + sell_numer / sell_denom;   // WRONG: 3/8 = 0 → price = 11.0
 ```
-# The Cast Operator in C and C++
-
-In C and C++, a **cast** temporarily changes the type of a value **within an expression**.
-
----
-
-## Why Use the Cast Operator?
-
-In C and C++, when both operands in a division are integers, the result is also an integer. That means:
-
-```c
-int result = 3 / 8;   // result will be 0, not 0.375
-```
-
-If you're calculating a value like a stock price using mixed units, integer division can lead to incorrect results.
-
----
-
-## Fixing It with a Cast
-
-Suppose we have this code:
-
-```c
-int sell_whole = 11;
-int sell_numer = 3;
-int sell_denom = 8;
-float price;
-
-price = sell_whole + sell_numer / sell_denom;   // WRONG: 3/8 = 0 → price = 11.0
-```
 
 To fix it, we temporarily cast one or both operands to a float:
 
