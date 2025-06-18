@@ -166,13 +166,16 @@ public:
         float r = shape.getRadius();
 
         // Wall bounce logic
-        if ((pos.x + r >= windowSize.x && direction.x > 0) || (pos.x - r <= 0 && direction.x < 0))
+        if ((pos.x + r >= windowSize.x && direction.x > 0) || (pos.x - r <= 0 && direction.x < 0)) {
             direction.x *= -1;
+        }
 
-        if ((pos.y + r >= windowSize.y && direction.y > 0) || (pos.y - r <= 0 && direction.y < 0))
+        if ((pos.y + r >= windowSize.y && direction.y > 0) || (pos.y - r <= 0 && direction.y < 0)) {
             direction.y *= -1;
+        }
 
-        shape.move(direction * speed);
+        sf::Vector2f movement(direction.x * speed, direction.y * speed);
+        shape.move(movement);
     }
 };
 
@@ -184,23 +187,28 @@ int main() {
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
-            if (event.type == sf::Event::Closed)
+            if (event.type == sf::Event::Closed) {
                 window.close();
-            else if (event.type == sf::Event::MouseButtonPressed && balls.size() < 200)
-                balls.emplace_back(window.getSize());
+            } else if (event.type == sf::Event::MouseButtonPressed && balls.size() < 200) {
+                Ball newBall(window.getSize());
+                balls.push_back(newBall);
+            }
         }
 
-        for (auto& ball : balls)
-            ball.move(window.getSize());
+        for (std::size_t i = 0; i < balls.size(); ++i) {
+            balls[i].move(window.getSize());
+        }
 
         window.clear();
-        for (auto& ball : balls)
-            window.draw(ball.shape);
+        for (std::size_t i = 0; i < balls.size(); ++i) {
+            window.draw(balls[i].shape);
+        }
         window.display();
     }
 
     return 0;
 }
+
 ```
 
 ---
