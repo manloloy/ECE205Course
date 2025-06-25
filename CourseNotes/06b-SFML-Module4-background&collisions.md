@@ -1,12 +1,12 @@
 # SFML Module 4: Backgrounds and Collision Detection
 
-This module shows how to:
-
 - Display a scrolling background using `sf::Sprite`
 - Move a `Player` sprite across the screen
 - Add an `Enemy` sprite that moves in the opposite direction
 - Detect collisions between the `Player` and the `Enemy`
 - Organize your code using classes in `.cpp` and `.hpp` files
+  
+**Code Files:** [SFML-Module 4](../Files/SFML-Modules/SFML-Module4-Background%26Collisions)
 
 ---
 
