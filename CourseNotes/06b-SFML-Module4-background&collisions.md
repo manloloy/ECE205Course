@@ -6,7 +6,7 @@
 - Detect collisions between the `Player` and the `Enemy`
 - Organize your code using classes in `.cpp` and `.hpp` files
   
-**Code Files:** [SFML-Module 4](../Files/SFML-Modules/SFML-Module4-Background%26Collisions)
+**Code Files:** [SFML-Module 4 - Backrounds & Collision Detection](../Files/SFML-Modules/SFML-Module4-Background%26Collisions)
 
 ---
 
