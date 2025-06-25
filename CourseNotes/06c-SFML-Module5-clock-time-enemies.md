@@ -1,4 +1,4 @@
-# SFML Module 6: Managing Multiple Enemies and Time-Based Movement
+# SFML Module 5: Managing Multiple Enemies and Time-Based Movement
 
 In this module, we expand our game by:
 
@@ -6,6 +6,9 @@ In this module, we expand our game by:
 - Resetting enemies when they leave the screen
 - Detecting collision between player and enemies
 - Using `sf::Clock` and delta time to make the game run consistently across different computers
+
+**Code Files:** [SFML-Module 5 - Managing Multiple Enemies & Time-Based Movement](../Files/SFML-Module5-Clock%2CTime%26Enemies)
+
 
 ---
 
