@@ -7,7 +7,7 @@ In this module, we expand our game by:
 - Detecting collision between player and enemies
 - Using `sf::Clock` and delta time to make the game run consistently across different computers
 
-**Code Files:** [SFML-Module 5 - Managing Multiple Enemies & Time-Based Movement](../Files/SFML-Module5-Clock%2CTime%26Enemies)
+**Code Files:** [SFML-Module 5 - Managing Multiple Enemies & Time-Based Movement](../Files/SFML-Module5-Clock,Time&Enemies)
 
 
 ---
