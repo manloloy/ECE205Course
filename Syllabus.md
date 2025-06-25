@@ -89,6 +89,8 @@ Weekly 3-hour sessions. Students are expected to complete assigned tasks during 
 | Final Project      | 40%    |
 | Final Presentation | 20%    |
 
+[Rubrics for the Final Project & Presentation](./Files/FinalProject&PresentationRubrics.md)
+
 ## Course Schedule
 [Course Schedule](./CourseCalendarSUM25.md)
 
