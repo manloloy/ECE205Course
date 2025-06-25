@@ -1,6 +1,8 @@
-# SFML Module 5: Bullets and Object Pooling
+# SFML Module 6: Bullets and Object Pooling
 
 In this module, you will add **shooting functionality** to your player using **bullets**. You will also learn about an important performance technique known as **object pooling**, which allows you to efficiently reuse bullets rather than creating and destroying them during gameplay.
+
+**Code Files:** [SFML Module 6 - Bullets and Object Pooling](../Files/SFML-Modules/SFML-Module6-Bullets)
 
 ---
 
