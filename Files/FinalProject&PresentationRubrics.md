@@ -2,9 +2,7 @@
 
 1. **Final Project Rubric** (150 points - Weighted at 40% of your Final Grade)  
 2. **Final Project Presentation Rubric** (100 points - Weighted at 20% of your Final Grade)
-
-Both of them are shown below.
-
+Bother are described below.
 ---
 
 ## Final Project Rubric (150 points)
