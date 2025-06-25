@@ -1,17 +1,13 @@
-# Final Project Rubrics Module
-
-## Overview
-
-This module presents **two separate rubrics** for the final assessment of your work:
+# Final Project and Presentation Rubrics 
 
 1. **Final Project Rubric** (150 points - Weighted at 40% of your Final Grade)  
 2. **Final Project Presentation Rubric** (100 points - Weighted at 20% of your Final Grade)
 
-Both rubrics are required for course completion. Please read each carefully to ensure you fulfill all requirements.
+Both of them are shown below.
 
 ---
 
-## Final Project Rubric (100 points)
+## Final Project Rubric (150 points)
 
 The final project is a cumulative demonstration of the skills and concepts you have learned throughout the course. Your final submission must include the source code, a short written report, and written peer feedback for other students' presentations.
 
@@ -31,9 +27,13 @@ The final project is a cumulative demonstration of the skills and concepts you h
 | **Report: Sample Code** | Each report section includes clear, commented code snippets from the project to illustrate main points | **10 pts** |
 | **Report: Lessons Learned** | Reflects on challenges and insights gained during the project | **15 pts** |
 | **Report: What Would Be Done Differently** | Thoughtful discussion on possible improvements or alternative approaches | **15 pts** |
-| **Peer Feedback** | Submitted feedback (0.5–1 page) for at least 2 classmates’ presentations. Constructive, specific, and thoughtful | **10 pts** |
+| **Peer Feedback** | Submitted feedback (0.5–1 page) for all classmates’ presentations. Constructive, specific, and thoughtful | **10 pts** |
 
 > **Note:** Feedback will be submitted to the instructor with  and passed on to the presenters. Feedback may be anonymous upon request.
+#### Submission
+**Written Report: Submit a single PDF File**
+**Project Files: Submit a .zip or .tar.gz of your project files.**
+**Peer Review: Submit a single PDF with all your reviews**
 
 ---
 
@@ -56,5 +56,7 @@ Your in-class presentation is your opportunity to showcase your work and underst
 | **Q&A** | Presenter answers questions effectively and shows understanding | **10 pts** |
 
 > **Tip:** A live demo is definitely better but have a video recording of your app being used just in case things don't work out.
+#### Submission
+**Final Slides: Submit your slides in a single PDF File**
 
 
