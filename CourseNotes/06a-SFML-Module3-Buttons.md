@@ -8,7 +8,7 @@ You’ll also learn how to:
 - Use mouse input to detect clicks
 - Display text on screen
 
-**Code Files:** [SFML-Module3-Buttons.md](../Files/SFML-Modules/SFML-Module3-Buttons)
+**Code Files:** [SFML-Module 3 - Buttons.md](../Files/SFML-Modules/SFML-Module3-Buttons)
 
 ---
 
