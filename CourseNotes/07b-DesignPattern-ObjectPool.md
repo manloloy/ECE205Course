@@ -1,32 +1,31 @@
 # C++ Module: Object Pooling Design Pattern
 
-This module introduces the **Object Pooling** design pattern in C++. It's commonly used in performance-critical software, such as games, to avoid expensive object instantiation at runtime.
-
-## What is Object Pooling?
-
-Object pooling is a technique where a fixed number of objects are created in advance and reused when needed, instead of creating and destroying them repeatedly. This is useful when:
-
-- Creating objects is slow (e.g., loading textures, initializing graphics)
-- You create and destroy the same kind of object often (like bullets)
-- You want to minimize memory fragmentation or garbage collection overhead
-
-## Why Is It Useful?
-
-Imagine you're making a game where bullets are constantly created and destroyed. Each time you call `new Bullet()` and later `delete`, your game wastes time managing memory. Instead, you can create 200 bullets at the start and just "activate" or "deactivate" them during the game.
+This module introduces the **Object Pooling** design pattern in C++. It is commonly used in games and performance-critical applications to avoid the overhead of creating and destroying many objects at runtime.
 
 ---
 
-## Part 1: Object Pooling Without SFML
+## What Is Object Pooling?
 
-We'll build a simple benchmarking example showing the time it takes to:
+Object pooling is a technique where we **create many objects ahead of time** and **reuse them** instead of creating new ones during the program.
 
-1. Create 200 objects dynamically
-2. Use 200 objects from a preallocated object pool
+### Why Do This?
+- Creating objects with `new` and deleting with `delete` is slow.
+- If you create the same type of object over and over (like bullets or particles), object pooling is faster and more efficient.
+- Memory is reused, so the program can avoid performance hiccups.
+
+---
+
+## Example: Pooling vs Regular Allocation
+
+We will:
+1. Create 200 objects the regular way (using `new` each time).
+2. Create 200 objects once using an object pool and reuse them repeatedly.
+
+Then we’ll repeat both of them many times to simulate a real workload.
 
 ---
 
 ### Step 1: Particle Class
-
 ```cpp
 // particle.hpp
 #ifndef PARTICLE_HPP
@@ -53,7 +52,6 @@ private:
 ---
 
 ### Step 2: Object Pool Class
-
 ```cpp
 // object_pool.hpp
 #ifndef OBJECT_POOL_HPP
@@ -81,7 +79,7 @@ public:
                 return p;
             }
         }
-        return nullptr;
+        return nullptr; // all are active
     }
 
     void releaseAll() {
@@ -98,8 +96,7 @@ private:
 
 ---
 
-### Step 3: Main Program
-
+### Step 3: Main Program with Fair Benchmark
 ```cpp
 // main.cpp
 #include <iostream>
@@ -110,27 +107,32 @@ private:
 
 int main() {
     const int NUM = 200;
+    const int REPEAT = 100;
 
+    // Benchmark regular allocation
     auto start = std::chrono::high_resolution_clock::now();
-    std::vector<Particle*> regular;
-    for (int i = 0; i < NUM; ++i)
-        regular.push_back(new Particle());
+    for (int t = 0; t < REPEAT; ++t) {
+        std::vector<Particle*> regular;
+        for (int i = 0; i < NUM; ++i)
+            regular.push_back(new Particle());
+        for (auto p : regular)
+            delete p;
+    }
     auto end = std::chrono::high_resolution_clock::now();
-    std::cout << "Regular allocation: "
-              << std::chrono::duration<double>(end - start).count()
-              << "s\n";
+    std::cout << "Regular allocation (" << REPEAT << "x" << NUM << "): "
+              << std::chrono::duration<double>(end - start).count() << "s\n";
 
-    for (auto p : regular)
-        delete p;
-
+    // Benchmark object pool reuse
     ObjectPool pool(NUM);
     start = std::chrono::high_resolution_clock::now();
-    for (int i = 0; i < NUM; ++i)
-        pool.acquire();
+    for (int t = 0; t < REPEAT; ++t) {
+        for (int i = 0; i < NUM; ++i)
+            pool.acquire();
+        pool.releaseAll();
+    }
     end = std::chrono::high_resolution_clock::now();
-    std::cout << "Pooled allocation: "
-              << std::chrono::duration<double>(end - start).count()
-              << "s\n";
+    std::cout << "Pooled reuse (" << REPEAT << "x" << NUM << "): "
+              << std::chrono::duration<double>(end - start).count() << "s\n";
 
     return 0;
 }
@@ -139,7 +141,6 @@ int main() {
 ---
 
 ### Step 4: Makefile
-
 ```makefile
 CXX = g++
 CXXFLAGS = -Wall -std=c++17
@@ -162,17 +163,11 @@ clean:
 
 ---
 
-## Part 2: SFML Object Pooling Demo
+## SFML Visual Example
 
-This SFML example compares dynamic allocation vs object pooling to draw 200 circles:
+The following SFML demo lets you compare visually what happens when you dynamically create objects versus when you use a pool of objects that you simply activate/deactivate.
 
-- Button 1: creates and destroys 200 red circles dynamically
-- Button 2: activates/deactivates 200 green circles from a preloaded pool
-
----
-
-### Full SFML Demo (Single File)
-
+main.cpp
 ```cpp
 #include <SFML/Graphics.hpp>
 #include <vector>
@@ -261,14 +256,11 @@ int main() {
 }
 ```
 
-Make sure `arial.ttf` is in the same folder.
+Make sure `arial.ttf` is in the same folder. You can download a font file online for free.
+
+```bash
+g++ main.cpp -o main -lsfml-graphics -lsfml-window -lsfml-system
+```
+
 
 ---
-
-## Notes
-
-- Object pooling improves performance by **reusing** objects instead of frequently allocating and destroying them.
-- It's useful in games, simulations, and real-time systems where objects like bullets, particles, or UI elements are reused frequently.
-- We’ve demonstrated:
-  - A basic object pool with benchmarking
-  - A simple visual SFML app using pooled and dynamic objects
