@@ -216,14 +216,14 @@ public:
 class WalkStrategy : public MoveStrategy {
 public:
     void move(sf::CircleShape& shape) const override {
-        shape.move(1.0f, 0.0f);
+        shape.move(2.0f, 0.0f);
     }
 };
 
 class JumpStrategy : public MoveStrategy {
 public:
     void move(sf::CircleShape& shape) const override {
-        shape.move(0.0f, -30.0f);
+        shape.move(0.0f, -8.0f);
     }
 };
 
@@ -263,6 +263,7 @@ private:
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(500, 500), "Strategy Pattern");
+    window.setFramerateLimit(20); // <-- Frame limiter
 
     Player player;
 
@@ -292,6 +293,12 @@ int main() {
 
     return 0;
 }
+```
+
+Compile:
+```bash
+g++ main.cpp -o main -lsfml-graphics -lsfml-window -lsfml-system
+
 ```
 
 ---
