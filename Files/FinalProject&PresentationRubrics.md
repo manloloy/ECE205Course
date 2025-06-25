@@ -31,9 +31,10 @@ The final project is a cumulative demonstration of the skills and concepts you h
 
 > **Note:** Feedback will be submitted to the instructor with  and passed on to the presenters. Feedback may be anonymous upon request.
 #### Submission
-**Written Report: Submit a single PDF File**
-**Project Files: Submit a .zip or .tar.gz of your project files.**
-**Peer Review: Submit a single PDF with all your reviews**
+
+1. **Written Report: Submit a single PDF File**
+2. **Project Files: Submit a .zip or .tar.gz of your project files.**
+3. **Peer Review: Submit a single PDF with all your reviews**
 
 ---
 
@@ -57,6 +58,6 @@ Your in-class presentation is your opportunity to showcase your work and underst
 
 > **Tip:** A live demo is definitely better but have a video recording of your app being used just in case things don't work out.
 #### Submission
-**Final Slides: Submit your slides in a single PDF File**
+- **Final Slides: Submit your slides in a single PDF File**
 
 
