@@ -181,6 +181,126 @@ git config --global credential.helper cache
 
 ---
 
+
+
+---
+
+## Additional Practice: Working with Git on a Different Computer
+
+Once you’ve successfully pushed your first project to GitHub, try the following steps on a **different computer**, lab machine, or virtual machine to practice cross-device collaboration and project continuity.
+
+---
+
+### Step 0: Set Up Git Identity (if not already configured)
+
+If this is the first time you're using Git on this machine, run:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your_email@hawaii.edu"
+```
+
+**NOTE:** On this second computer, you may want to setup a different token and also setup the credential helper if you have not done so on the previous machine. You will find this convinient. If your machine ever gets compromised you can remove the key from your account.
+
+
+---
+
+### Step 1: Clone the Repository
+
+Log in to GitHub and find your `gitpractice` repository. Copy the **HTTPS** URL.
+
+Then on the second machine:
+
+```bash
+git clone https://github.com/yourusername/gitpractice.git
+cd gitpractice
+```
+
+You now have a copy of your repository on this computer.
+
+---
+
+### Step 2: Modify and Push Changes
+
+Make a small change to your `hello.cpp` file. For example, change the message:
+
+```cpp
+cout << "Hello again from a different machine!" << endl;
+```
+
+Then:
+
+```bash
+git add hello.cpp
+git commit -m "Update from different computer"
+git push
+```
+
+If prompted, paste your GitHub token again.
+
+---
+
+### Step 3: Check That the Push Was Successful
+
+Return to the original computer or open GitHub in the browser and confirm the update appears in the repository's history and file view.
+
+---
+
+## Optional Challenge: Create a Branch and Merge It
+
+### Step 1: Create and Switch to a New Branch
+
+```bash
+git checkout -b newfeature
+```
+
+Make changes (like adding a comment or new file), then:
+
+```bash
+git add .
+git commit -m "Added new feature on branch"
+git push -u origin newfeature
+```
+
+You now have a new branch hosted on GitHub.
+
+---
+
+### Step 2: Merge Branch Back into Main
+
+Return to the `main` branch:
+
+```bash
+git checkout main
+git pull
+```
+
+Merge the branch:
+
+```bash
+git merge newfeature
+```
+
+Then push the updated main branch:
+
+```bash
+git push
+```
+
+---
+
+### Step 3: Delete the Merged Branch (Optional)
+
+```bash
+git branch -d newfeature        # Delete local branch
+git push origin --delete newfeature  # Delete remote branch
+```
+
+---
+
+**You’ve now practiced the full GitHub workflow across machines and learned how to use branches to manage features and changes.**
+
+
 ## Git for Collaboration
 
 Teams can:
