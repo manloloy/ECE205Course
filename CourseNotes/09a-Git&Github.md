@@ -144,8 +144,11 @@ GitHub no longer accepts passwords for HTTPS pushes. Follow these steps:
 
 #### Step 2: Push
 
+
 ```bash
 git push -u origin main
+# OR if you got an error about refspec not found try the command below.
+git push -u origin master
 ```
 
 Git will prompt:
