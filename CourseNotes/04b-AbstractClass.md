@@ -44,12 +44,12 @@ public:
 };
 
 int main() {
-    // Shape s;      // ❌ Error
+    // Shape s;      // Error
     Shape* ptr;
     Circle c;
 
     ptr = &c;
-    ptr->draw();      // ✅ Output: Drawing a circle
+    ptr->draw();      // Output: Drawing a circle
 }
 ```
 
@@ -139,7 +139,7 @@ This is **undefined behavior**. Avoid calling pure virtual methods inside constr
 class A {
 public:
     A() { direct(); }
-    virtual void direct() = 0;  // ❌ this is dangerous
+    virtual void direct() = 0;  // this is dangerous
 };
 ```
 
