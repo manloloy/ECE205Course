@@ -1,42 +1,44 @@
-#include<iostream>
-#include <fstream>
-#include<SFML/Graphics.hpp>
+#include <SFML/Graphics.hpp>
+#include "button.hpp"
+#include "config.hpp"
 #include <vector>
 
 int main() {
-    //read in data
-    std::ifstream infile("data.txt");
-    std::vector<sf::Vector2i> points;
-    std::vector<sf::CircleShape> pointCircles;
+    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Button Example");
 
-    int x, y;
-    while (infile >> x >> y) {
-        points.emplace_back(x, y);
-    }
+    Button nameBtn(180, 300, 140, 40, "Name", 14);
+    Button resetBtn(180, 400, 200, 40, "Reset Player", 23);
 
-    sf::RenderWindow window(sf::VideoMode(500, 500), "SFML works!");
 
-    //create circles at points
-    for (const auto& pt : points) {
-        //debug
-        //std::cout << "x: " << pt.x << ", y: " << pt.y << '\n';
-        sf::CircleShape shape(10.f);
-        shape.setFillColor(sf::Color::Green);
-        //shape.setOrigin(sf::Vector2f(pt.x, pt.y));
-        shape.setPosition(pt);
-        pointCircles.push_back(shape);
-    }
+    std::vector<Button*> buttons = { &resetBtn, &nameBtn };
+
     while (window.isOpen()) {
         sf::Event event;
-        while (window.pollEvent(event))
+        while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 window.close();
 
+            // Handle mouse click: activate only the clicked button
+            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
+                for (auto* btn : buttons) {
+                    btn->setActive(btn->isClicked(window, event));
+                }
+            }
+
+            // Delegate text and key events to the active button
+            for (auto* btn : buttons) {
+                if (event.type == sf::Event::TextEntered)
+                    btn->handleTextEvent(event);
+                if (event.type == sf::Event::KeyPressed)
+                    btn->handleKeyEvent(event);
+            }
+        }
+
         window.clear();
-        window.draw(shape);
-        window.draw(shape1);
+        for (auto* btn : buttons) {
+            btn->draw(window);
+        }
         window.display();
     }
 
     return 0;
-}
