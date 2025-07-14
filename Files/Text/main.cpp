@@ -1,11 +1,16 @@
 #include <SFML/Graphics.hpp>
 #include "button.hpp"
 #include "config.hpp"
+#include <vector>
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Button Example");
 
-    Button resetBtn(180, 400, 140, 40, "Reset Player");
+    Button nameBtn(180, 300, 140, 40, "Name", 8);
+    Button resetBtn(180, 400, 140, 40, "Reset Player", 10);
+
+
+    std::vector<Button*> buttons = { &resetBtn, &nameBtn };
 
     while (window.isOpen()) {
         sf::Event event;
@@ -13,22 +18,26 @@ int main() {
             if (event.type == sf::Event::Closed)
                 window.close();
 
-            if (event.type == sf::Event::TextEntered) {
-                char typed = static_cast<char>(event.text.unicode);
-                if (std::isalnum(typed)){
-                    resetBtn.ChangeText(typed);
+            // Handle mouse click: activate only the clicked button
+            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
+                for (auto* btn : buttons) {
+                    btn->setActive(btn->isClicked(window, event));
                 }
             }
-            // if key pressed update text
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Backspace)){
-                resetBtn.BackspaceText();
+
+            // Delegate text and key events to the active button
+            for (auto* btn : buttons) {
+                if (event.type == sf::Event::TextEntered)
+                    btn->handleTextEvent(event);
+                if (event.type == sf::Event::KeyPressed)
+                    btn->handleKeyEvent(event);
             }
         }
 
-
-
         window.clear();
-        resetBtn.draw(window);
+        for (auto* btn : buttons) {
+            btn->draw(window);
+        }
         window.display();
     }
 
