@@ -14,13 +14,7 @@ int main() {
         points.emplace_back(x, y);
     }
 
-
-
     sf::RenderWindow window(sf::VideoMode(500, 500), "SFML works!");
-    
-    sf::CircleShape shape1(10.f);
-    shape1.setFillColor(sf::Color::Blue);
-    shape1.setOrigin(sf::Vector2f(-10, -10));
 
     //create circles at points
     for (const auto& pt : points) {
