@@ -4,7 +4,7 @@ LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system
 
 SRC = main.cpp button.cpp
 OBJ = $(SRC:.cpp=.o)
-TARGET = game
+TARGET = textapp
 
 all: $(TARGET)
 
