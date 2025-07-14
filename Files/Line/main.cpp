@@ -7,6 +7,7 @@ int main() {
     //read in data
     std::ifstream infile("data.txt");
     std::vector<sf::Vector2i> points;
+    std::vector<sf::CircleShape> pointCircles;
 
     int x, y;
     while (infile >> x >> y) {
@@ -21,14 +22,15 @@ int main() {
     shape1.setFillColor(sf::Color::Blue);
     shape1.setOrigin(sf::Vector2f(-10, -10));
 
-    sf::CircleShape shape(1.f);
-    // Print loaded points
-
+    //create circles at points
     for (const auto& pt : points) {
-
-        std::cout << "x: " << pt.x << ", y: " << pt.y << '\n';
+        //debug
+        //std::cout << "x: " << pt.x << ", y: " << pt.y << '\n';
+        sf::CircleShape shape(10.f);
         shape.setFillColor(sf::Color::Green);
-        shape.setOrigin(sf::Vector2f(pt.x, pt.y));
+        //shape.setOrigin(sf::Vector2f(pt.x, pt.y));
+        shape.setPosition(pt);
+        pointCircles.push_back(shape);
     }
     while (window.isOpen()) {
         sf::Event event;
