@@ -1,4 +1,4 @@
-# Final Project and Presentation Rubrics 
+# Final Project Written Report and Presentation Rubrics 
 
 1. **Final Project Rubric** (150 points - Weighted at 40% of your Final Grade)  
 2. **Final Project Presentation Rubric** (100 points - Weighted at 20% of your Final Grade)
@@ -7,7 +7,7 @@ Both are described below.
 
 ---
 
-## Final Project Rubric (150 points)
+## Final Project Written Report Rubric (150 points)
 
 The final project is a cumulative demonstration of the skills and concepts you have learned throughout the course. Your final submission must include the source code, a short written report, and written peer feedback for other students' presentations.
 
