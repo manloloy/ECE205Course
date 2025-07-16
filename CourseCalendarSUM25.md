@@ -16,8 +16,8 @@
 |      | Jul 9 (Wed)  | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)                         |          |
 |      | Jul 11 (Fri) | [Function Name Overloading](./CourseNotes/FunctionNameOverloading.md)<br/>[Constructor Overloading](./CourseNotes/12b-ConstructorOverloading.md)                        |          |
 | 6    | Jul 14 (Mon) | [Overloading Operators](./CourseNotes/13a-OverloadingOperators.md)                        | [Lab 6](./Labs/Lab06)   |
-|      | Jul 16 (Wed) | [Revisite the Abstract Class and Templates](./CourseNotes/)                       |          |
-|      | Jul 18 (Fri) | [Function Templates](./CourseNotes/)<br>[Class Templates](./CourseNotes/)                       |          |
+|      | Jul 16 (Wed) | Revisiting the Abstract Class - [Pages Example](./Files/Pages)                       |          |
+|      | Jul 18 (Fri) | [Function Templates](./CourseNotes/15a-FunctionTemplates.md)<br>[Class Templates](./CourseNotes/15b-ClassTemplates.md)                       |          |
 | 7    | Jul 21 (Mon) | [Containers](./CourseNotes/)                          | [Lab 7](./Labs/Lab07)   |
 |      | Jul 23 (Wed) | [Searching and Sorting Algorithms](./CourseNotes/)                        |          |
 |      | Jul 25 (Fri) | [Binary Search](./CourseNotes/)<br/>[Big O notation](./CourseNotes/)                        |          |
