@@ -18,7 +18,7 @@
 | 6    | Jul 14 (Mon) | [Overloading Operators](./CourseNotes/13a-OverloadingOperators.md)                        | [Lab 6](./Labs/Lab06)   |
 |      | Jul 16 (Wed) | Revisiting the Abstract Class - [Pages Example](./Files/Pages)                       |          |
 |      | Jul 18 (Fri) | [Function Templates](./CourseNotes/15a-FunctionTemplates.md)<br>[Class Templates](./CourseNotes/15b-ClassTemplates.md)                       |          |
-| 7    | Jul 21 (Mon) | [Containers](./CourseNotes/)                          | [Lab 7](./Labs/Lab07)   |
+| 7    | Jul 21 (Mon) | [Containers](./CourseNotes/16a-Containers.md)                          | [Lab 7](./Labs/Lab07)   |
 |      | Jul 23 (Wed) | [Searching and Sorting Algorithms](./CourseNotes/)                        |          |
 |      | Jul 25 (Fri) | [Binary Search](./CourseNotes/)<br/>[Big O notation](./CourseNotes/)                        |          |
 | 8    | Jul 28 (Mon) | [Selection Sort](./CourseNotes/)<br/>[Insertion Sort](./CourseNotes/)                      | [Lab 8](./Labs/Lab08)   |
