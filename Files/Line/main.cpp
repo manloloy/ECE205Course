@@ -1,44 +1,58 @@
-#include <SFML/Graphics.hpp>
-#include "button.hpp"
-#include "config.hpp"
+#include<iostream>
+#include <fstream>
+#include<SFML/Graphics.hpp>
 #include <vector>
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Button Example");
+    //read in data
+    std::ifstream infile("data.txt");
+    std::vector<sf::Vector2i> points;
+    std::vector<sf::CircleShape> pointCircles;
+    
+    
+    // read x and y data
+    int x, y;
+    
+    while (infile >> x >> y) {
+        points.emplace_back(x, y);
+    }
 
-    Button nameBtn(180, 300, 140, 40, "Name", 14);
-    Button resetBtn(180, 400, 200, 40, "Reset Player", 23);
+
+    sf::VertexArray lines(sf::LineStrip, points.size());
 
 
-    std::vector<Button*> buttons = { &resetBtn, &nameBtn };
+    // draw window
+    sf::RenderWindow window(sf::VideoMode(500, 500), "SFML works!");
+
+    //create circles at points
+    for (const auto& pt : points) {
+        //debug
+        //std::cout << "x: " << pt.x << ", y: " << pt.y << '\n';
+        sf::CircleShape shape(3.f);
+        shape.setFillColor(sf::Color::Green);
+        shape.setOrigin(sf::Vector2f(3.f, 3.f));
+        shape.setPosition(sf::Vector2f(pt));
+    }
+
+    for (std::size_t i = 0; i < points.size(); ++i) {
+        lines[i].position = sf::Vector2f(points[i]);
+        lines[i].color = sf::Color::Green;
+    }
 
     while (window.isOpen()) {
         sf::Event event;
-        while (window.pollEvent(event)) {
+        while (window.pollEvent(event))
             if (event.type == sf::Event::Closed)
                 window.close();
 
-            // Handle mouse click: activate only the clicked button
-            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
-                for (auto* btn : buttons) {
-                    btn->setActive(btn->isClicked(window, event));
-                }
-            }
-
-            // Delegate text and key events to the active button
-            for (auto* btn : buttons) {
-                if (event.type == sf::Event::TextEntered)
-                    btn->handleTextEvent(event);
-                if (event.type == sf::Event::KeyPressed)
-                    btn->handleKeyEvent(event);
-            }
-        }
-
         window.clear();
-        for (auto* btn : buttons) {
-            btn->draw(window);
+        window.draw(lines);
+        for (const auto& pc : pointCircles) {
+            window.draw(pc);
         }
+
         window.display();
     }
 
     return 0;
+}
