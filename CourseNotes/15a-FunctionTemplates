@@ -170,7 +170,3 @@ This restricts `square()` to integral types only.
 
 ---
 
-## Additional Reading
-
-- [cplusplus.com: Templates](https://cplusplus.com/doc/tutorial/templates/)
-- [cppreference: Function Templates](https://en.cppreference.com/w/cpp/language/function_template)
