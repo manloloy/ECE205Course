@@ -16,9 +16,18 @@ Welcome to your first lab. In this lab, you will become familiar with basic Linu
 
 ## Instructions
 
+---
 ### Step 1: Open the Terminal
 
-The terminal provides access to the Unix shell. You can open the terminal from the application menu or by right-clicking on the desktop and selecting "Open Terminal."
+The terminal provides access to the Unix shell. Get into the terminal of any of the UNIX systems described in lecture. If you are using the virtual box then you can open the terminal from the application menu or by right-clicking on the desktop and selecting "Open Terminal."
+
+**Before you type the command**: vimtutor is a pretty long text editting tutor. You don't have to complete the whole thing but you should know enough to navigate around vim, edit, save, and exit.
+
+To learn how to use the native command line text editor in linux Type:
+```
+vimtutor
+```
+My recommendation is finish at least up until lesson 3 or 4. vim is very powerful and if you've ever seen a vim power user work, you will realize the benefit in using it for programming. The advanced features do have a steep learning curve. It mostly just takes practice. **vim Cheat Sheet** for the course: [vim Cheat Sheet](../../Handouts/viCheatSheet.md)
 
 ---
 
