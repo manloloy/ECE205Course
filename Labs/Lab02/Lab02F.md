@@ -30,3 +30,80 @@ Write a program that simulates a 10x10 grayscale image using a 1D array of 100 i
 - An integer for the threshold value (0-255).
 
 ## Sample Output
+Original Image (Gradient):
+0 2 4 6 8 10 12 14 16 18
+20 22 24 26 28 30 32 34 36 38
+...
+
+Inverted Image:
+255 253 251 249 247 245 243 241 239 237
+235 233 231 229 227 225 223 221 219 217
+...
+
+After Thresholding (T=128):
+0 0 0 0 0 0 0 0 0 0
+...
+255 255 255 255 255 255 255 255 255 255
+
+## C++ Template
+
+```cpp
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+// TODO: Implement Inversion using pointer arithmetic (e.g., *(ptr + i))
+void InvertFilter(int* image, int size) {
+}
+
+// TODO: Implement Brightness using pointer arithmetic. Cap values at 255.
+void BrightnessFilter(int* image, int size, int adjustment) {
+}
+
+// TODO: Implement Threshold using the (y * width + x) index logic with pointers
+void ThresholdFilter(int* image, int width, int height, int threshold) {
+}
+
+void PrintImage(int* image, int width, int height) {
+    for (int y = 0; y < height; ++y) {
+        for (int x = 0; x < width; ++x) {
+            cout << setw(4) << *(image + (y * width + x));
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+    const int W = 10;
+    const int H = 10;
+    int image[W * H];
+
+    // Initialize with a simple gradient
+    for (int i = 0; i < W * H; ++i) {
+        image[i] = i * 2;
+    }
+
+    int brightness, threshold;
+    cout << "Enter brightness adjustment: ";
+    cin >> brightness;
+    cout << "Enter threshold (0-255): ";
+    cin >> threshold;
+
+    cout << "\nOriginal Image:\n";
+    PrintImage(image, W, H);
+
+    InvertFilter(image, W * H);
+    cout << "\nInverted Image:\n";
+    PrintImage(image, W, H);
+
+    BrightnessFilter(image, W * H, brightness);
+    cout << "\nAfter Brightness Adjustment:\n";
+    PrintImage(image, W, H);
+
+    ThresholdFilter(image, W, H, threshold);
+    cout << "\nAfter Thresholding:\n";
+    PrintImage(image, W, H);
+
+    return 0;
+}
