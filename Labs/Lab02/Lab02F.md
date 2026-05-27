@@ -30,20 +30,21 @@ Write a program that simulates a 10x10 grayscale image using a 1D array of 100 i
 - An integer for the threshold value (0-255).
 
 ## Sample Output
+
 Original Image (Gradient):
-0 2 4 6 8 10 12 14 16 18
-20 22 24 26 28 30 32 34 36 38
-...
+   0   2   4   6   8  10  12  14  16  18
+  20  22  24  26  28  30  32  34  36  38
+  ...
 
 Inverted Image:
-255 253 251 249 247 245 243 241 239 237
-235 233 231 229 227 225 223 221 219 217
-...
+ 255 253 251 249 247 245 243 241 239 237
+ 235 233 231 229 227 225 223 221 219 217
+ ...
 
 After Thresholding (T=128):
-0 0 0 0 0 0 0 0 0 0
-...
-255 255 255 255 255 255 255 255 255 255
+ 255 255 255 255 255 255 255 255 255 255
+ ...
+   0   0   0   0   0   0   0   0   0   0
 
 ## C++ Template
 
