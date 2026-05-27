@@ -101,7 +101,3 @@ Weekly 3-hour sessions. Students are expected to complete assigned tasks during 
 ## Academic Honesty
 Students are expected to uphold the highest standards of academic integrity. Any violations may result in disciplinary action per University guidelines.
 
-## Notes
-- Students should expect to code both in lab and at home.
-- Weekly labs are crucial to mastering material.
-- Bring questions to office hours, labs, or lectures early and often.
