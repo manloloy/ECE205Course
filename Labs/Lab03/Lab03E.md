@@ -1,6 +1,3 @@
-### Lab03D.md
-
-```markdown
 # Lab 03D: SFML Visual Catalog and State Management
 
 ## Objective
