@@ -3,12 +3,12 @@
 **Credits**: 4  
 **Instructor**: Christopher Manloloyo  
 **Office Hours**: TBD
-**Lecture Location**: Holmes Hall 248
+**Lecture Location**: Holmes Hall 247
 **Lecture Time**: MON, WED, & FRI: 10:30 AM – 11:45 AM
 
 
 ## Teaching Assistant / Grader  
-- **Shayla Sharmin Urmi** – shay28@hawaii.edu 
+- **Martian Binonwangan** - martianb@hawaii.edu
 
 ## Lab Section  
   **Location**: Holmes 387
@@ -85,14 +85,17 @@ Weekly 3-hour sessions. Students are expected to complete assigned tasks during 
 | Component          | Weight |
 |--------------------|--------|
 | Participation      | 10%    |
-| Labs               | 30%    |
-| Final Project      | 40%    |
+| Labs               | 20%    |
+| Midterm            | 10%    |
+| Final Exam         | 20%    |
+| Final Project      | 20%    |
 | Final Presentation | 20%    |
+
 
 [Rubrics for the Final Project & Presentation](./Files/FinalProject&PresentationRubrics.md)
 
 ## Course Schedule
-[Course Schedule](./CourseCalendarSUM25.md)
+[Course Schedule](./CourseCalendarSUM26.md)
 
 
 ## Academic Honesty
