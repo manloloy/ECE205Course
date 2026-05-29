@@ -9,5 +9,5 @@ Lab02E: Practice writing and calling functions in C and C++. This lab emphasizes
 - Reinforce array traversal and swapping.
 - Learn function declarations and definitions.
 
-Lab04F & Lab04G: A real application of pointers and arrays. Lab02F is a basic example giving grayscale values that represent a picture. Build the functions correctly to get the correct result.
-Lab02G - use your funcitons on a real image. Requires some header files from online.
+Lab04F & Lab04G: A real application of pointers and arrays. Lab02F is a basic example giving grayscale values that represent a picture. Build the functions correctly to get the correct result. Lab02G - use your funcitons on a real image. Requires some header files from online.
+For lab G, you will need additional header files and some test images. These can be found in the required_files directory.
