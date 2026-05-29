@@ -111,3 +111,33 @@ int main() {
 
     return 0;
 }
+```
+
+# Compiling & Running (Try both options)
+## Option 1: Direct Command Line
+To compile from the terminal, use the following command (ensure you are in the directory containing main.cpp and arial.ttf):
+```bash
+g++ main.cpp -o catalog -lsfml-graphics -lsfml-window -lsfml-system
+./catalog
+```
+
+## option 2: Makefile
+Create a file named Makefile in your project directory with the following content:
+```bash
+CXX = g++
+CXXFLAGS = -Wall -std=c++17
+LDFLAGS = -lsfml-graphics -lsfml-window -lsfml-system
+
+all: catalog
+
+catalog: main.cpp
+	$(CXX) $(CXXFLAGS) main.cpp -o catalog $(LDFLAGS)
+
+clean:
+	rm -f catalog
+```
+To build and run:
+```bash
+make
+./catalog
+```
