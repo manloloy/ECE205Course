@@ -17,6 +17,7 @@ Even if the work is not your portion, you should help or shadow your other team 
 
 ## The Project: The Modular Playground
 Your team will build a shared SFML screen. Each student is responsible for adding a unique "Entity" that inherits from a common base class and behaves differently on screen.
+There are templates below the lab instructions that can be used to get each team member started.
 
 ### 1. Setup (Student A - The Lead)
 1. Create a new private repository on GitHub named `Lab05C_Playground`.
