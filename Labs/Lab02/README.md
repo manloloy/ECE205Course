@@ -1,7 +1,11 @@
 Lab02A: Practice for loops in C/C++
+
 Lab02B: Practice with pointers in C/C++
+
 Lab02C: Practice with arrays and loops C/C++
+
 Lab02D: Practice rand() and srand() in C/C++
+
 Lab02E: Practice writing and calling functions in C and C++. This lab emphasizes working with fixed-size arrays and basic sorting logic using function parameters passed by reference.
 
 - Learn how to pass arrays by reference to a function.
