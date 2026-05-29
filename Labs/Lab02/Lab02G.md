@@ -1,8 +1,32 @@
+# Lab 02G: Real-World Image Filtering
+
+## Objective
+Apply the pointer arithmetic and image filtering logic from Lab 02F to a real grayscale image file.
+
+- Practice loading and saving external assets.
+- Adapt existing logic to different data types (`int` to `unsigned char`).
+- Verify algorithmic correctness through visual feedback.
+
+## Background
+In Lab 02F, you simulated an image using a small integer array. In this lab, you will use the `stb_image` library to load a real `.jpg` or `.png` file into memory. The library provides a pointer to a contiguous block of memory where each byte (`unsigned char`) represents a pixel value from 0 to 255.
+
+## Task
+1. Download `stb_image.h` and `stb_image_write.h` into your project folder.
+```bash
+wget https://raw.githubusercontent.com/nothings/stb/master/stb_image.h
+wget https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h
+```
+2. Use the provided template to load `input.jpg`.
+3. Port your `InvertFilter`, `BrightnessFilter`, and `ThresholdFilter` functions from Lab 02F. 
+4. **Note:** You must change the parameter types from `int*` to `unsigned char*`.
+5. Run the filters on the real image and save the result as `output.jpg`.
+
+## C++ Template
+
 ```cpp
 #include <iostream>
 #include <string>
 
-// Preprocessor defines for stb libraries (only in one source file)
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
@@ -10,80 +34,42 @@
 
 using namespace std;
 
-/**
- * Inverts the grayscale image.
- * Uses pointer arithmetic: *(image + i)
- */
+// TODO: Port InvertFilter from 02F (Change int* to unsigned char*)
 void InvertFilter(unsigned char* image, int size) {
-    for (int i = 0; i < size; ++i) {
-        *(image + i) = 255 - *(image + i);
-    }
 }
 
-/**
- * Adjusts brightness of the image.
- * Capped at 255 to prevent overflow.
- */
+// TODO: Port BrightnessFilter from 02F (Handle unsigned char overflow)
 void BrightnessFilter(unsigned char* image, int size, int adjustment) {
-    for (int i = 0; i < size; ++i) {
-        int currentVal = *(image + i);
-        int newVal = currentVal + adjustment;
-
-        // Manual Clamping
-        if (newVal > 255) newVal = 255;
-        if (newVal < 0) newVal = 0;
-
-        *(image + i) = (unsigned char)newVal;
-    }
 }
 
-/**
- * Converts image to black and white based on threshold.
- * Uses y * width + x indexing with pointers.
- */
+// TODO: Port ThresholdFilter from 02F
 void ThresholdFilter(unsigned char* image, int width, int height, int threshold) {
-    for (int y = 0; y < height; ++y) {
-        for (int x = 0; x < width; ++x) {
-            unsigned char* pixel = image + (y * width + x);
-            if (*pixel > threshold) {
-                *pixel = 255;
-            } else {
-                *pixel = 0;
-            }
-        }
-    }
 }
 
 int main() {
-    string inputFilename = "input.jpg";
-    string outputFilename = "output.jpg";
+    string inputPath = "input.jpg";
     int width, height, channels;
 
-    // 1. Load the image. We force the 5th argument to '1' to ensure it loads as Grayscale.
-    unsigned char* img = stbi_load(inputFilename.c_str(), &width, &height, &channels, 1);
+    // Load image as 1-channel (Grayscale)
+    unsigned char* img = stbi_load(inputPath.c_str(), &width, &height, &channels, 1);
 
     if (img == nullptr) {
-        cout << "Error: Could not load " << inputFilename << ". Ensure the file exists." << endl;
+        cout << "Failed to load image. Ensure input.jpg is in the directory." << endl;
         return 1;
     }
 
-    cout << "Loaded Image: " << width << "x" << height << endl;
+    int size = width * height;
 
-    // 2. Get User Input
-    int brightness, threshold;
-    cout << "Enter brightness adjustment (e.g., 50 or -50): ";
-    cin >> brightness;
-    cout << "Enter threshold value (0-255): ";
-    cin >> threshold;
+    // Apply your functions
+    InvertFilter(img, size);
+    BrightnessFilter(img, size, 30);
+    ThresholdFilter(img, width, height, 128);
 
-    int totalPixels = width * height;
+    // Save result
+    stbi_write_jpg("output.jpg", width, height, 1, img, 100);
 
-    // 3. Apply Filters
-    // Note: We apply them sequentially to the same data block
-    cout << "Applying Inversion..." << endl;
-    InvertFilter(img, totalPixels);
+    cout << "Processed image saved to output.jpg" << endl;
 
-    cout << "Applying Brightness..." << endl;
-    BrightnessFilter(img, totalP
-
-```
+    stbi_image_free(img);
+    return 0;
+}
