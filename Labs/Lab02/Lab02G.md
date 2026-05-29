@@ -11,7 +11,7 @@ Apply the pointer arithmetic and image filtering logic from Lab 02F to a real gr
 In Lab 02F, you simulated an image using a small integer array. In this lab, you will use the `stb_image` library to load a real `.jpg` or `.png` file into memory. The library provides a pointer to a contiguous block of memory where each byte (`unsigned char`) represents a pixel value from 0 to 255.
 
 ## Task
-1. Download `stb_image.h` and `stb_image_write.h` into your project folder.
+1. Download `stb_image.h` and `stb_image_write.h` into your project folder. In the same directory as your Lab02G.cpp program run the following commands to download the needed header files for image read and write.
 ```bash
 wget https://raw.githubusercontent.com/nothings/stb/master/stb_image.h
 wget https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h
