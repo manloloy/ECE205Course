@@ -114,6 +114,8 @@ int main() {
 ```
 
 # Compiling & Running (Try both options)
+The instructions below assume your code is in main.cpp. You can replace main.cpp with <yourfilename>.cpp in the commands and in the Makefile below.
+
 ## Option 1: Direct Command Line
 To compile from the terminal, use the following command (ensure you are in the directory containing main.cpp and arial.ttf):
 ```bash
