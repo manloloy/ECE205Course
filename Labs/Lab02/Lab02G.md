@@ -16,7 +16,8 @@ In Lab 02F, you simulated an image using a small integer array. In this lab, you
 wget https://raw.githubusercontent.com/nothings/stb/master/stb_image.h
 wget https://raw.githubusercontent.com/nothings/stb/master/stb_image_write.h
 ```
-2. Use the provided template to load `input.jpg`.
+or you can download directly from the required_files folder that should be in the same directory as this Lab (ECE205Course/Labs/Lab02/required_files)
+2. Use the provided template to load `input.jpg`. The required_files directory has some test grayscale images you can use. Either change the input.jpg to <nameofimage>.jpg or rename the images to input.jpg to test your program.
 3. Port your `InvertFilter`, `BrightnessFilter`, and `ThresholdFilter` functions from Lab 02F. 
 4. **Note:** You must change the parameter types from `int*` to `unsigned char*`.
 5. Run the filters on the real image and save the result as `output.jpg`.
