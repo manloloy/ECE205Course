@@ -4,27 +4,49 @@ In this class, you will be working in a **Unix/Linux** environment.
 
 ---
 
-## What is Unix/Linux?
+## What is Linux?
 
-- Unix is the **Operating System** we’ll use for all programming and terminal work.
+- Linux is the **Operating System** we’ll use for all programming and terminal work.
 - Linux (like Ubuntu) is a Unix-like operating system—just like Windows and macOS, it manages files, hardware, and programs.
-- In the early portion of this course, students will ssh into a unix system to program
-- As early as possible students should start using working in **Ubuntu Desktop**, using a **VirtualBox VM**.
+- In the early portion of this course, students will **SSH** into a remote server to program.
+- As early as possible, students should start working in **Ubuntu Desktop** using a **VirtualBox VM** on their own machines.
 
 ---
-## UH Unix
-- [Video of loggin on to UH Unix both MacOS and Windows(using putty)](https://drive.google.com/file/d/1S-SSow904T3TN9DGh_hGRiG4m-qkcx5b/view?usp=drive_link)
-- MacOS
-   1. Open the **Terminal** Application.
-   2. Type: ```ssh <uhusername>@uhunix.hawaii.edu``` (eg. ```ssh johndoe@uhunix.hawaii.edu```)
-   3. Enter your own UH Password when prompted (Your password will not show as you type for security reasons)
-- Window
-   1. Download Putty here: [https://www.putty.org/](https://www.putty.org/). Then run the application
-   2. In host type uhunix.hawaii.edu
-   3. Type your uhusername in the username section
-   4. Make sure the port is 22
-   5. Start the session.
-   6. Enter your UH Password when prompted. (Your password will not show as you type for security reasons)
+
+## Accessing the Course Lab Server
+
+For the first portion of the course, we will use a dedicated lab server: **jipys.com**.
+
+### Connection Instructions
+- **Video Guide:** [How to log in (MacOS & Windows)](https://drive.google.com/file/d/1S-SSow904T3TN9DGh_hGRiG4m-qkcx5b/view?usp=drive_link)  
+  *Note: The video uses `uhunix.hawaii.edu`. Replace that address with **jipys.com**.*
+
+#### MacOS / Linux
+1. Open the **Terminal** Application.
+2. Type: `ssh <uhusername>@jipys.com` (e.g., `ssh johndoe@jipys.com`)
+3. Enter the default password: **`ECE205_Start!`**
+   - **Note:** Your password will **not show** as you type for security reasons.
+
+#### Windows
+1. Download and run **PuTTY** here: [https://www.putty.org/](https://www.putty.org/).
+2. In the **Host Name** field, type: `jipys.com`
+3. Ensure the **Port** is set to `22`.
+4. Click **Open**.
+5. When prompted for `login as:`, type your **UH username**.
+6. Enter the default password: **`ECE205_Start!`**
+   - **Note:** Your password will **not show** as you type.
+
+---
+
+### First Time Login: Password Change
+The first time you log in, the system will require you to change your password immediately.
+
+1. **Current password:** Enter the default password (**`ECE205_Start!`**).
+2. **New password:** Type your own secure password.
+3. **Retype new password:** Confirm your new password.
+4. **Connection Closed:** Once the password is changed, the server will automatically close your session.
+5. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
+
 
 ---
 ## Setting Up Ubuntu Desktop in a Virtual Machine (Do this sometime in the first week. Ask your Instructor and TA for help)
