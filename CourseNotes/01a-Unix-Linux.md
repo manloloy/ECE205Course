@@ -18,16 +18,6 @@ In this class, you will be working in a **Unix/Linux** environment.
 For the first portion of the course, we will use a dedicated lab server: **jipys.com**.
 
 ---
-
-### First Time Login: Password Change
-The first time you log in, the system will require you to change your password immediately.
-
-1. **Current password:** Enter the default password (**`ECE205_Start!`**).
-2. **New password:** Type your own secure password.
-3. **Retype new password:** Confirm your new password.
-4. **Connection Closed:** Once the password is changed, the server will automatically close your session.
-5. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
----
 ### Connection Instructions
 - **Video Guide:** [How to log in (MacOS & Windows)](https://drive.google.com/file/d/1S-SSow904T3TN9DGh_hGRiG4m-qkcx5b/view?usp=drive_link)  
   *Note: The video uses `uhunix.hawaii.edu`. Replace that address with **jipys.com**.*
@@ -37,6 +27,7 @@ The first time you log in, the system will require you to change your password i
 2. Type: `ssh <uhusername>@jipys.com` (e.g., `ssh johndoe@jipys.com`)
 3. Enter the default password: **`ECE205_Start!`**
    - **Note:** Your password will **not show** as you type for security reasons.
+4. Your connection will reset and you must login using your new password.
 
 #### Windows
 1. Download and run **PuTTY** here: [https://www.putty.org/](https://www.putty.org/).
@@ -46,7 +37,21 @@ The first time you log in, the system will require you to change your password i
 5. When prompted for `login as:`, type your **UH username**.
 6. Enter the default password: **`ECE205_Start!`**
    - **Note:** Your password will **not show** as you type.
+7. If this is your first time logging in to the server or your username was reset, then you will be prompted to change your password to your own custom password. Pick something secure that you can easily remember.
+8. **New password:** Type your own secure password.
+9. **Retype new password:** Confirm your new password.
+10. **Connection Closed:** Once the password is changed, the server will automatically close your session.
+11. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
 
+---
+### Course Server Purpose 
+This server is the primary environment used to introduce the basics of Linux, Bash, and Vim. During the first one or two weeks of the course, it provides a quick and reliable way to get started without needing to configure your own system.
+
+Once your virtual machine (VM) is set up, you may choose to use it as your primary development environment for the remainder of the course. The shared server will remain available for practice, experimentation, and completing command-line exercises.
+
+Keep in mind that SSH provides terminal access only. As a result, applications that require a graphical user interface (GUI) or graphics libraries cannot be run directly through a standard SSH session.
+
+   
 ---
 ## Setting Up Ubuntu Desktop in a Virtual Machine (Do this sometime in the first week. Ask your Instructor and TA for help)
 **Even if you can access the course server you need to still setup a virtual machine.** The virtual machine allows you to install
