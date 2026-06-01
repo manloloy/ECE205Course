@@ -93,7 +93,8 @@ To get your VM running, follow the instructions below:
      ```
 
 ---
-## Bash/VIM vide
+## Bash/VIM video
+The video may use differnt servers or older versions of Ubuntu but the bash and vim content is still useful.
 [Intro to Bash & VIM](https://drive.google.com/file/d/1n4sVdBegET4n0ZKzsyrBvtb8vUj7B2r2/view?usp=sharing)
 
 ---
