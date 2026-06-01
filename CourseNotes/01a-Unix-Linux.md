@@ -13,7 +13,7 @@ In this class, you will be working in a **Unix/Linux** environment.
 
 ---
 
-## Accessing the Course Lab Server
+## Accessing the Course Server
 
 For the first portion of the course, we will use a dedicated lab server: **jipys.com**.
 
@@ -50,8 +50,11 @@ The first time you log in, the system will require you to change your password i
 
 ---
 ## Setting Up Ubuntu Desktop in a Virtual Machine (Do this sometime in the first week. Ask your Instructor and TA for help)
+**Even if you can access the course server you need to still setup a virtual machine.** The virtual machine allows you to install
+the sfml library which is used for some labs and your final project. **Optionally**: you may get C++ and SFML working on Windows and Mac
+by following online guides or videos. **However, your instructor will not provide support for those alternative methods.**
 
-You will download a pre-built **Ubuntu Virtual Machine**. This avoids VPN setup issues and ensures all students work in the same environment.
+To get your VM running, follow the instructions below:
 
 1. **Install VirtualBox**  
    [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
