@@ -17,6 +17,17 @@ In this class, you will be working in a **Unix/Linux** environment.
 
 For the first portion of the course, we will use a dedicated lab server: **jipys.com**.
 
+---
+
+### First Time Login: Password Change
+The first time you log in, the system will require you to change your password immediately.
+
+1. **Current password:** Enter the default password (**`ECE205_Start!`**).
+2. **New password:** Type your own secure password.
+3. **Retype new password:** Confirm your new password.
+4. **Connection Closed:** Once the password is changed, the server will automatically close your session.
+5. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
+---
 ### Connection Instructions
 - **Video Guide:** [How to log in (MacOS & Windows)](https://drive.google.com/file/d/1S-SSow904T3TN9DGh_hGRiG4m-qkcx5b/view?usp=drive_link)  
   *Note: The video uses `uhunix.hawaii.edu`. Replace that address with **jipys.com**.*
@@ -35,18 +46,6 @@ For the first portion of the course, we will use a dedicated lab server: **jipys
 5. When prompted for `login as:`, type your **UH username**.
 6. Enter the default password: **`ECE205_Start!`**
    - **Note:** Your password will **not show** as you type.
-
----
-
-### First Time Login: Password Change
-The first time you log in, the system will require you to change your password immediately.
-
-1. **Current password:** Enter the default password (**`ECE205_Start!`**).
-2. **New password:** Type your own secure password.
-3. **Retype new password:** Confirm your new password.
-4. **Connection Closed:** Once the password is changed, the server will automatically close your session.
-5. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
-
 
 ---
 ## Setting Up Ubuntu Desktop in a Virtual Machine (Do this sometime in the first week. Ask your Instructor and TA for help)
