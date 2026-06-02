@@ -25,9 +25,15 @@ For the first portion of the course, we will use a dedicated lab server: **jipys
 #### MacOS / Linux
 1. Open the **Terminal** Application.
 2. Type: `ssh <uhusername>@jipys.com` (e.g., `ssh johndoe@jipys.com`)
+   If you get an error you can try `ssh -o PubkeyAuthentication=no <uhusername>@jipys.com`. Your computer may be trying to use an ssh key but you will use username and password in this course.
 3. Enter the default password: **`ECE205_Start!`**
    - **Note:** Your password will **not show** as you type for security reasons.
 4. Your connection will reset and you must login using your new password.
+5. If this is your first time logging in to the server or your username was reset, then you will be prompted to change your password to your own custom password. Pick something secure that you can easily remember.
+6. **New password:** Type your own secure password.
+7. **Retype new password:** Confirm your new password.
+8. **Connection Closed:** Once the password is changed, the server will automatically close your session.
+9. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
 
 #### Windows
 1. Download and run **PuTTY** here: [https://www.putty.org/](https://www.putty.org/).
