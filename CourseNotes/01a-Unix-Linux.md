@@ -30,10 +30,11 @@ For the first portion of the course, we will use a dedicated lab server: **jipys
    - **Note:** Your password will **not show** as you type for security reasons.
 4. Your connection will reset and you must login using your new password.
 5. If this is your first time logging in to the server or your username was reset, then you will be prompted to change your password to your own custom password. Pick something secure that you can easily remember.
-6. **New password:** Type your own secure password.
-7. **Retype new password:** Confirm your new password.
-8. **Connection Closed:** Once the password is changed, the server will automatically close your session.
-9. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
+6. **Current Password** Type the default password again
+7. **New password:** Type your own secure password.
+8. **Retype new password:** Confirm your new password.
+9. **Connection Closed:** Once the password is changed, the server will automatically close your session.
+10. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
 
 #### Windows
 1. Download and run **PuTTY** here: [https://www.putty.org/](https://www.putty.org/).
@@ -44,10 +45,15 @@ For the first portion of the course, we will use a dedicated lab server: **jipys
 6. Enter the default password: **`ECE205_Start!`**
    - **Note:** Your password will **not show** as you type.
 7. If this is your first time logging in to the server or your username was reset, then you will be prompted to change your password to your own custom password. Pick something secure that you can easily remember.
-8. **New password:** Type your own secure password.
-9. **Retype new password:** Confirm your new password.
-10. **Connection Closed:** Once the password is changed, the server will automatically close your session.
-11. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
+8. **Current password** Type the default password again
+9. **New password:** Type your own secure password.
+10. **Retype new password:** Confirm your new password.
+11. **Connection Closed:** Once the password is changed, the server will automatically close your session.
+12. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
+
+---
+### Reset your own password
+If you want to change your password at any time. Log in and use the command `passwd`
 
 ---
 ### Course Server Purpose 
