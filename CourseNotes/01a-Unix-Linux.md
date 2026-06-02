@@ -154,3 +154,105 @@ Ubuntu includes a built-in tutorial for `vim`. To get started, open the terminal
 
 - **vim Cheat Sheet** for the course: [vim Cheat Sheet](../Handouts/viCheatSheet.md)
 
+
+
+## A Side Note On Bash (Not part of the course but programming and linux related)
+### Introduction to Bash Scripting
+
+**Note:** Bash programming is not the focus of this course. However, these examples demonstrate how to create shell scripts to automate tasks and run complex sequences of terminal commands locally on your system. 
+
+Every Bash script should start with the "shebang" line: `#!/bin/bash`. This tells the operating system which interpreter to use to execute the script.
+
+---
+
+#### 1. Hello World Script
+This is a basic script that outputs text to the terminal.
+
+**Create a file named `hello.sh`:**
+```bash
+#!/bin/bash
+echo "Hello, World!"
+```
+
+**Make the script executable:**
+```bash
+chmod +x hello.sh
+```
+
+**Run the script:**
+```bash
+./hello.sh
+```
+
+---
+
+#### 2. Branching and Input
+Bash scripts can handle logic and user input using a syntax similar to other programming languages.
+
+**Create a file named `check_val.sh`:**
+```bash
+#!/bin/bash
+
+echo "Enter a number:"
+read num
+
+if [ $num -gt 100 ]; then
+    echo "That is a large number."
+else
+    echo "That is a small number."
+fi
+```
+
+**Make the script executable:**
+```bash
+chmod +x check_val.sh
+```
+
+**Run the script:**
+```bash
+./check_val.sh
+```
+
+---
+
+#### 3. Automating File Structures
+One of the most powerful uses of Bash is automating repetitive directory and file creation. This script initializes a standard C++ project structure.
+
+**Create a file named `setup_project.sh`:**
+```bash
+#!/bin/bash
+
+echo "Enter your project name:"
+read project
+
+# Create the main directory
+mkdir $project
+cd $project
+
+# Create subdirectories
+mkdir src
+mkdir include
+mkdir build
+
+# Create a sample source file
+touch src/main.cpp
+echo "#include <iostream>" >> src/main.cpp
+echo "int main() { std::cout << \"Project $project initialized.\" << std::endl; return 0; }" >> src/main.cpp
+
+# Create an empty Makefile
+touch Makefile
+
+echo "Structure for '$project' created:"
+ls -R
+```
+
+**Make the script executable:**
+```bash
+chmod +x setup_project.sh
+```
+
+**Run the script:**
+```bash
+./setup_project.sh
+```
+
