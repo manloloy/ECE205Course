@@ -95,14 +95,22 @@ To get your VM running, follow the instructions below:
    - These tools should be sufficient for the course for now.
 6. **VIM SETTINGS**
    - your vim settings may be a bit weird when your first start using vim. If you notice weird things with the backspace and arrow keys come back to this section
-   - Open your .vimrc file by typeing ```vim ~/.vimrc```
-   - make sure the file contains the following contents
-
-     ```
-     set backspace=indent,eol,start
-     set nocompatible
-     set number 
-     ```
+     
+     In your terminal run the following command:
+```bash
+cat >> ~/.vimrc << 'EOF'
+set backspace=indent,eol,start
+set nocompatible
+set number
+EOF
+```
+if you then run `cat ~/.vimrc` you should see your .vimrc file contains the following lines:
+    
+```bash
+set backspace=indent,eol,start
+set nocompatible
+set number 
+```
 
 ---
 ## Bash/VIM video
