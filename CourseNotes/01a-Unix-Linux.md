@@ -37,7 +37,7 @@ For the first portion of the course, we will use a dedicated lab server: **jipys
 10. **Re-Login:** You must open a new Terminal or PuTTY session and log in using your **new password**.
 
 #### Windows
-1. Download and run **PuTTY** here: [https://www.putty.org/](https://www.putty.org/).
+1. Download and run **PuTTY** here: [Putty Download](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 2. In the **Host Name** field, type: `jipys.com`
 3. Ensure the **Port** is set to `22`.
 4. Click **Open**.
