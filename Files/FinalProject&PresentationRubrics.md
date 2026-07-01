@@ -9,7 +9,7 @@ Both are described below.
 
 ## Final Project Written Report Rubric (150 points)
 
-The final project is a cumulative demonstration of the skills and concepts you have learned throughout the course. Your final submission must include the source code, a short written report, and written peer feedback for other students' presentations.
+The final project is a cumulative demonstration of the skills and concepts you have learned throughout the course. Your final submission must include the source code, a short written report, and written peer feedback for other students' presentations. The final project must use the SFML(2.6.2) library. You should include classes, inheritance, composition, design patterns, and abstract classes. The full list of what should be included is shown in the requirements table below.
 
 ###  Requirements
 
@@ -21,7 +21,7 @@ The final project is a cumulative demonstration of the skills and concepts you h
 | **Design Patterns** | At least 4 different design patterns are implemented clearly and effectively (e.g., Singleton, Factory, Observer, etc.) | **15 pts** |
 | **Report: Introduction** | Describes the theme, purpose, or gameplay of the project clearly | **5 pts** |
 | **Report: Workflow or Gameplay** | Describes how the app functions or how gameplay flows from start to end | **5 pts** |
-| **Report: Classes and Relationships** | Clearly explains the classes created and how they work together | **10 pts** |
+| **Report: Classes and Relationships** | Clearly explains the classes created and how they work together. Use of abstract classes | **10 pts** |
 | **Report: Inheritance/Composition** | Discusses the specific inheritance or composition techniques used | **10 pts** |
 | **Report: Design Patterns** | Explains which design patterns were used, how, and why | **15 pts** |
 | **Report: Sample Code** | Each report section includes clear, commented code snippets from the project to illustrate main points | **10 pts** |
