@@ -17,8 +17,8 @@ The final project is a cumulative demonstration of the skills and concepts you h
 |---------|-------------|--------|
 | **Functionality** | Code compiles, runs successfully, and demonstrates a complete and coherent application or game | **15 pts** |
 | **Use of Classes** | Project shows effective use of object-oriented programming (OOP) with well-defined and logically separated classes | **15 pts** |
-| **Inheritance or Composition** | Project shows meaningful use of either inheritance or composition for structuring related behavior | **10 pts** |
-| **Design Patterns** | At least two different design patterns are implemented clearly and effectively (e.g., Singleton, Factory, Observer, etc.) | **15 pts** |
+| **Inheritance or Composition** | Project must show meaningful use of either inheritance or composition for structuring related behavior | **10 pts** |
+| **Design Patterns** | At least 4 different design patterns are implemented clearly and effectively (e.g., Singleton, Factory, Observer, etc.) | **15 pts** |
 | **Report: Introduction** | Describes the theme, purpose, or gameplay of the project clearly | **5 pts** |
 | **Report: Workflow or Gameplay** | Describes how the app functions or how gameplay flows from start to end | **5 pts** |
 | **Report: Classes and Relationships** | Clearly explains the classes created and how they work together | **10 pts** |
@@ -27,14 +27,18 @@ The final project is a cumulative demonstration of the skills and concepts you h
 | **Report: Sample Code** | Each report section includes clear, commented code snippets from the project to illustrate main points | **10 pts** |
 | **Report: Lessons Learned** | Reflects on challenges and insights gained during the project | **15 pts** |
 | **Report: What Would Be Done Differently** | Thoughtful discussion on possible improvements or alternative approaches | **15 pts** |
-| **Peer Feedback** | Submitted feedback (0.5–1 page) for all classmates’ presentations. Constructive, specific, and thoughtful | **10 pts** |
+| **Peer Feedback** | Submitted feedback (0.25–0.5 page) for all classmates’ presentations. Constructive, specific, and thoughtful | **10 pts** |
 
 > **Note:** Feedback will be submitted to the instructor with  and passed on to the presenters. Feedback may be anonymous upon request.
-#### Submission
+#### Proposal Submission (Your REPO should be private)
+Your final projects will be submitted through github. Your proposals that we've been discussing in class are due by the end of this week. To submit your proposal, create a private repo using your UH email linked github. The repo should be named ECE205<SEM_3Char><Year_2Char>FP. For example if this is the Summer session in 2026 then name your repo "ECE205SUM26FP". For Spring and Fall, use SPR and FAL respectively. As discussed in class, please add a PROPOSAL.md file which I can read about your project proposal. You may also add a README.md. The README.md should be used for instructions on how to install dependencies and run your project. The only thing that's due is your PROPOSAL.md. You may use the final project presentation rubric and final project guidelines to think about your proposal. Remember that I care mostly about C++ implementation and design pattern implementation. Projects must use SFML since that is what we have been using in class. 
+#### Your Final Submission
+1. **WrittenReport.pdf: Include a PDF written report inside your repo. Name it "WrittenReport.pdf" (Check the Requirements for all the sections your report needs)**
+2. **PeerReviews.pdf: Include a single PDF with all your reviews inside your repo**
+3. **PresentationSlides.pdf: Include the slides as a pdf in your repo**
 
-1. **Written Report: Submit a single PDF File**
-2. **Project Files: Submit a .zip or .tar.gz of your project files.**
-3. **Peer Review: Submit a single PDF with all your reviews**
+#### Deadline
+Your instructor will take the main branch of your repo at the end of the last schedule lecture. Please make sure you include everything is included in your repo by the last scheduled lecture.
 
 ---
 
@@ -57,7 +61,6 @@ Your in-class presentation is your opportunity to showcase your work and underst
 | **Q&A** | Presenter answers questions effectively and shows understanding | **10 pts** |
 
 > **Tip:** A live demo is definitely better but have a video recording of your app being used just in case things don't work out.
-#### Submission
-- **Final Slides: Submit your slides in a single PDF File**
+
 
 
