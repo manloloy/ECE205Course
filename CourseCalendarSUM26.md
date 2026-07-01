@@ -8,8 +8,8 @@
 |      | Jun 19 (Fri) | [SFML - Module 3 - Buttons](./CourseNotes/06a-SFML-Module3-Buttons.md) <br/>[SFML - Module 4 - Background & Collisions](./CourseNotes/06b-SFML-Module4-background&collisions.md) <br/>[SFML - Module 5 - Clock, Time & Enemies](./CourseNotes/06c-SFML-Module5-clock-time-enemies.md) <br/>[SFML - Module 6 - Bullets](./CourseNotes/06d-SFML-Module6-Bullets.md)  |          |
 | 3    | Jun 22 (Mon) | [Intro To Design Patterns](./CourseNotes/07a-IntroToDesignPatterns.md)<br/>[Design Pattern - Object Pool](./CourseNotes/07b-DesignPattern-ObjectPool.md)<br/>[Design Pattern - RAII](./CourseNotes/07c-DesingPattern-RAII.md)<br/>[Design Pattern - Singleton](./CourseNotes/07d-DesignPattern-Singleton.md) | [Lab 3](./Labs/Lab03)   |
 |      | Jun 24 (Wed) | [Design Pattern - Factory](./CourseNotes/08a-DesignPattern-Factory.md)<br/>[Design Pattern - Strategy](./CourseNotes/08b-DesignPattern-Strategy.md) |          |
-|      | Jun 26 (Fri) | [Git & Github](./CourseNotes/09a-Git&Github.md)  |          |
-| 4    | Jun 29 (Mon) | [File I/O](./CourseNotes/09b-File-IO.md)<br/>[JSON Parsing](./CourseNotes/09c-JSONParsing.md)<br/>Start your  Final Project Proposals                        | [Lab 4](./Labs/Lab04)   |
+|      | Jun 26 (Fri) | [Git & Github](./CourseNotes/09a-Git&Github.md)  |         |
+| 4    | Jun 29 (Mon) | [File I/O](./CourseNotes/09b-File-IO.md)<br/>[JSON Parsing](./CourseNotes/09c-JSONParsing.md)<br/>[Final Projects Discussion](./Files/FinalProject&PresentationRubrics.md)                       | [Lab 4](./Labs/Lab04)   |
 |      | Jul 01 (Wed)  | [Exceptions](./CourseNotes/09d-Exceptions.md)<br/>Final Project Proposal Discussion<br/>Try your best to Finalize your Project Proposals Today      |          |
 |      | Jul 03 (Fri)  | No Class (Holiday)     |          |
 | 5    | Jul 06 (Mon)  | [Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
