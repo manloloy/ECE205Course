@@ -14,8 +14,8 @@
 |      | Jul 03 (Fri)  | No Class (Holiday)     |          |
 | 5    | Jul 06 (Mon)  | [Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
 |      | Jul 08 (Wed)  | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)                         |          |
-|      | Jul 10 (Fri) | [Function Name Overloading](./CourseNotes/FunctionNameOverloading.md)<br/>[Constructor Overloading](./CourseNotes/12b-ConstructorOverloading.md)                        |          |
-| 6    | Jul 13 (Mon) | [Overloading Operators](./CourseNotes/13a-OverloadingOperators.md)                        | [Lab 6](./Labs/Lab06)   |
+|      | Jul 10 (Fri) | [Function Name Overloading](./CourseNotes/FunctionNameOverloading.md)<br/>[Constructor Overloading](./CourseNotes/12b-ConstructorOverloading.md)<br/>[Overloading Operators](./CourseNotes/13a-OverloadingOperators.md)                        |          |
+| 6    | Jul 13 (Mon) | **Midterm 1**                        | [Lab 6](./Labs/Lab06)   |
 |      | Jul 15 (Wed) | Revisiting the Abstract Class - [Pages Example](./Files/Pages)                       |          |
 |      | Jul 17 (Fri) | [Function Templates](./CourseNotes/15a-FunctionTemplates.md)<br>[Class Templates](./CourseNotes/15b-ClassTemplates.md)                       |          |
 | 7    | Jul 20 (Mon) | [Containers](./CourseNotes/16a-Containers.md)                          | [Lab 7](./Labs/Lab07)   |
