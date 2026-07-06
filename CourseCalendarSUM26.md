@@ -12,7 +12,7 @@
 | 4    | Jun 29 (Mon) | [File I/O](./CourseNotes/09b-File-IO.md)<br/>[JSON Parsing](./CourseNotes/09c-JSONParsing.md)<br/>[Final Projects Discussion](./Files/FinalProject&PresentationRubrics.md)                       | [Lab 4](./Labs/Lab04)   |
 |      | Jul 01 (Wed)  | [Exceptions](./CourseNotes/09d-Exceptions.md)<br/>Final Project Proposal Discussion<br/>Try your best to Finalize your Project Proposals Today      |          |
 |      | Jul 03 (Fri)  | No Class (Holiday)     |          |
-| 5    | Jul 06 (Mon)  | [Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
+| 5    | Jul 06 (Mon)  | [Midterm 1 Practice](./Files/practice1.pdf)<br/>We will not cover Modern Scriptable Objects Unless Students are interested<br/>We will go over the Midterm Practice Instead<br/>[Modern Scriptable Objects](./CourseNotes/10a-IntroToModernScriptableObjects.md)<br/>[Simulating Scriptable Objects in C++](./CourseNotes/10b-ScriptableObjectsInC++.md)                          | [Lab 5](./Labs/Lab05)   |
 |      | Jul 08 (Wed)  | [Recursion](./CourseNotes/11a-Recursion.md) <br/>[Linked List](./CourseNotes/11b-LinkedLists.md) <br/>[Binary Search Trees](./CourseNotes/11c-BinarySearchTrees.md)                         |          |
 |      | Jul 10 (Fri) | [Function Name Overloading](./CourseNotes/FunctionNameOverloading.md)<br/>[Constructor Overloading](./CourseNotes/12b-ConstructorOverloading.md)<br/>[Overloading Operators](./CourseNotes/13a-OverloadingOperators.md)                        |          |
 | 6    | Jul 13 (Mon) | **Midterm 1**                        | [Lab 6](./Labs/Lab06)   |
