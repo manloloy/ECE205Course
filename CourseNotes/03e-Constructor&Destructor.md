@@ -130,9 +130,56 @@ public:
 };
 ```
 
-Useful for:
-- Initializing `const` and `reference` members
-- Calling base class constructors
+### Why this isn't just a style choice
+
+```cpp
+class Line {
+  double length;
+
+public:
+  // Assignment in the body: length is default-constructed first,
+  // then overwritten. Two steps.
+  Line(double len) {
+    length = len;
+  }
+};
+```
+
+vs.
+
+```cpp
+class Line {
+  double length;
+
+public:
+  // Initialization list: length is constructed directly with
+  // the given value. One step, no default construction first.
+  Line(double len) : length(len) {}
+};
+```
+
+For a `double` this difference is just a minor efficiency loss. For some members, though, there's no default-construct-then-assign step available at all, so an initialization list is **required**, not just preferred:
+
+- **`const` members** — a `const` can only be given a value once, at construction. There's nothing to assign to afterward in the body.
+- **Reference members** — a reference must be bound to something when it's created. It can't be left unbound and "assigned" later.
+- **Members that are objects of a class with no default constructor** — if the member's type can't be default-constructed, the compiler has no valid way to create it before the constructor body runs unless you tell it what value to construct it with, in the list.
+- **Calling a base class constructor** with arguments (rather than relying on the base's default constructor).
+
+### Not to be confused with: default member initializers
+
+C++11 also lets you write a default value directly in the class body, on the member's declaration:
+
+```cpp
+class Line {
+  double length = 0.0;   // default member initializer
+
+public:
+  Line() {}               // length is already 0.0 here
+  Line(double len) : length(len) {}   // init list overrides the default
+};
+```
+
+This looks similar but is a different mechanism: it sets a *default* used when a constructor's initialization list doesn't mention that member, rather than being part of any one constructor's list. It's still only meaningful at construction — it isn't something you can attach to a regular method either.
 
 ---
 
