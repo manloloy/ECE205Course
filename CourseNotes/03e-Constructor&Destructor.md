@@ -1,4 +1,4 @@
-# Module 2: Constructors and Destructors in C++
+# Constructors and Destructors in C++
 
 C++ allows classes to define **constructors** and **destructors** to control how objects are initialized and cleaned up.
 
