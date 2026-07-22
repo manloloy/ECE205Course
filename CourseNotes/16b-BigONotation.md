@@ -1,23 +1,8 @@
 # Lecture: Big-O Notation & Algorithmic Complexity
 
-**Duration:** 60 Minutes  
-**Target Audience:** Computer Science Students (Introductory to Intermediate Data Structures & Algorithms)  
-**Prerequisites:** Basic knowledge of loops, arrays, and basic algebra.
-
 ---
 
-## ⏱️ Lecture Agenda
-
-| Time | Section | Topic |
-| :--- | :--- | :--- |
-| **00:00 – 00:10** | **Section 1** | Introduction & Formal Definition of Big-O |
-| **00:10 – 00:35** | **Section 2** | The 6 Key Complexity Classes (Code & Mechanics) |
-| **00:35 – 00:50** | **Section 3** | **Interactive Class Activity** (15 min participation) |
-| **00:50 – 01:00** | **Section 4** | Rules of Big-O Arithmetic & Wrap-Up |
-
----
-
-## Section 1: Introduction & Formal Definition (10 Minutes)
+## Section 1: Introduction & Formal Definition 
 
 ### 1.1 Why Big-O?
 We do not measure execution speed purely in seconds because hardware, compiler optimizations, and background tasks vary. Instead, we measure **how execution time scales relative to input size ($n$) in the worst-case scenario**.
@@ -35,7 +20,7 @@ $$f(n) \le c \cdot g(n) \quad \text{for all } n \ge n_0$$
 
 ---
 
-## Section 2: Deep Dive into Key Complexity Classes (25 Minutes)
+## Section 2: Deep Dive into Key Complexity Classes 
 
 ---
 
@@ -228,7 +213,7 @@ def triple_loop_example(n: int) -> int:
 
 ---
 
-## Section 3: Interactive Class Activity (15 Minutes)
+## Section 3: Interactive Class Activity 
 
 > **Instructor Instructions:** Split students into pairs or small groups. Give them **8 minutes** to analyze the three problems below, then spend **7 minutes** reviewing solutions together on the board.
 
@@ -292,7 +277,7 @@ $$3n^2 + 5n + 2 \le 3n^2 + 5n^2 + 2n^2 = 10n^2$$
 
 ---
 
-## Section 4: Rules of Big-O Arithmetic & Summary (10 Minutes)
+## Section 4: Rules of Big-O Arithmetic & Summary
 
 ### 4.1 Simplifying Rules
 1. **Drop Low-Order Terms:**  
