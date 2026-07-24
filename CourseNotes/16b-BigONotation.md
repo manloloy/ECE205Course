@@ -5,7 +5,7 @@
 ## Section 1: Introduction & Formal Definition 
 
 ### 1.1 Why Big-O?
-We do not measure execution speed purely in seconds because hardware, compiler optimizations, and background tasks vary. Instead, we measure **how execution time scales relative to input size ($n$) in the worst-case scenario**.
+We do not measure execution speed purely in seconds because hardware, compiler optimizations, and background tasks vary. Instead, we measure **the upper bound of how execution time scales relative to input size ($n$)**. We can apply this upper bound to the best/average/worst-case functions.
 
 ### 1.2 Formal Definition
 Let $f(n)$ and $g(n)$ be non-negative functions from $\mathbb{N} \to \mathbb{R}^+$. We say that:
