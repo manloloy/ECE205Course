@@ -23,7 +23,7 @@
 |      | Jul 24 (Fri) | [Searching and Sorting Algorithms](./CourseNotes/)      |          |
 | 8    | Jul 27 (Mon) | [Selection Sort](./CourseNotes/)<br/>[Insertion Sort](./CourseNotes/)                      | [Lab 8](./Labs/Lab08)   |
 |      | Jul 29 (Wed) | [Quick Sort](./CourseNotes/)<br/>[Merge Sort](./CourseNotes/)   |          |
-|      | Jul 31 (Fri)  | Lecture - C++11 vs C++14 vs C++ 17                        |          |
+|      | Jul 31 (Fri)  | [C++11/14/17/20/23/26](./CourseNotes/18a-18a-CPP11-14-17-20-23-26.md)                        |          |
 | 9    | Aug 03 (Mon)  | Practice Problems                         | [Lab 9](./Labs/Lab09)   |
 |      | Aug 05 (Wed)  | Practice Problems                         |          |
 |      | Aug 07 (Fri)  | **Final Exam**                        |          |
