@@ -19,7 +19,7 @@
 |      | Jul 15 (Wed) | Revisiting the Abstract Class - [Pages Example](./Files/Pages)                       |          |
 |      | Jul 17 (Fri) | [Function Templates](./CourseNotes/15a-FunctionTemplates.md)<br>[Class Templates](./CourseNotes/15b-ClassTemplates.md)                       |          |
 | 7    | Jul 20 (Mon) | [Containers](./CourseNotes/16a-Containers.md)                          | [Lab 7](./Labs/Lab07)   |
-|      | Jul 22 (Wed) | [Big O notation](./CourseNotes/)                        |          |
+|      | Jul 22 (Wed) | [Big O notation](./CourseNotes/16b-BigONotation.md)<br>[Big Omega & Big Theta](./CourseNotes/16c-BigOmegaBigTheta.md)                      |          |
 |      | Jul 24 (Fri) | [Searching and Sorting Algorithms](./CourseNotes/)      |          |
 | 8    | Jul 27 (Mon) | [Selection Sort](./CourseNotes/)<br/>[Insertion Sort](./CourseNotes/)                      | [Lab 8](./Labs/Lab08)   |
 |      | Jul 29 (Wed) | [Quick Sort](./CourseNotes/)<br/>[Merge Sort](./CourseNotes/)   |          |
