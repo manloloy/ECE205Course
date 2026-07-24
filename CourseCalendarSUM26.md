@@ -21,8 +21,8 @@
 | 7    | Jul 20 (Mon) | [Containers](./CourseNotes/16a-Containers.md)                          | [Lab 7](./Labs/Lab07)   |
 |      | Jul 22 (Wed) | [Big O notation](./CourseNotes/16b-BigONotation.md)<br>[Big Omega & Big Theta](./CourseNotes/16c-BigOmegaBigTheta.md)                      |          |
 |      | Jul 24 (Fri) | [Searching and Sorting Algorithms](./CourseNotes/17a-Searching%26Sorting.md)      |          |
-| 8    | Jul 27 (Mon) | [Selection Sort](./CourseNotes/)<br/>[Insertion Sort](./CourseNotes/)                      | [Lab 8](./Labs/Lab08)   |
-|      | Jul 29 (Wed) | [Quick Sort](./CourseNotes/)<br/>[Merge Sort](./CourseNotes/)   |          |
+| 8    | Jul 27 (Mon) | [Selection Sort](./CourseNotes/17a-Searching%26Sorting.md)<br/>[Insertion Sort](./CourseNotes/17a-Searching%26Sorting.md                      | [Lab 8](./Labs/Lab08)   |
+|      | Jul 29 (Wed) | [Quick Sort](./CourseNotes/17a-Searching%26Sorting.md)<br/>[Merge Sort](./CourseNotes/17a-Searching%26Sorting.md   |          |
 |      | Jul 31 (Fri)  | [C++11/14/17/20/23/26](./CourseNotes/18a-18a-CPP11-14-17-20-23-26.md)                        |          |
 | 9    | Aug 03 (Mon)  | Practice Problems                         | [Lab 9](./Labs/Lab09)   |
 |      | Aug 05 (Wed)  | Practice Problems                         |          |
